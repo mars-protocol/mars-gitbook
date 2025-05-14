@@ -10,9 +10,9 @@ It empowers users with sophisticated trading tools and yield opportunities while
 
 ## What is Mars Protocol?
 
-Mars Protocol is a **Gen3 DeFi leverage protocol** that introduces **Credit Accounts** — an all-in-one position management primitive enabling leveraged trading across a wide array of strategies and assets.
+Mars Protocol is a **Gen3 DeFi leverage protocol** that introduces **Credit Accounts** - an all-in-one position management primitive enabling leveraged trading across a wide array of strategies and assets.
 
-Whether you're a high-leverage trader or a yield-seeking investor, Mars provides the infrastructure to meet your goals.
+Whether you're a high-leverage trader or a yield-seeking investor, Mars Protocol provides the infrastructure to meet your goals.
 
 ***
 
@@ -23,8 +23,9 @@ Whether you're a high-leverage trader or a yield-seeking investor, Mars provides
 The backbone of Mars Protocol. Credit Accounts allow users to:
 
 * Trade with leverage across **on-chain and off-chain assets**
-* Use any supported asset as collateral (if a reliable oracle exists)
+* Use any supported asset as collateral
 * Combine multiple positions in a single margin account
+* Hold and trade any on-chain asset
 
 #### Versatile Trading Options
 
@@ -49,13 +50,13 @@ With Credit Accounts, users can access a wide range of strategies:
 
 Mars Protocol serves two major user groups, balancing their needs in one unified marketplace:
 
-### Speculators (Risk Takers)
+#### Speculators (Risk Takers)
 
 * Leverage power users
 * Seeking advanced trading instruments
 * Benefit from fee reductions and optimized UX
 
-### Investors (Risk Reducers)
+#### Investors (Risk Reducers)
 
 * Yield-seekers focused on capital preservation
 * Use Mars Protocol for risk-managed, passive yield strategies
@@ -73,7 +74,7 @@ Mars Protocol is designed to power a **robust and dynamic DeFi ecosystem** by:
 
 ***
 
-## Explore Mars Protocol?
+## Explore Mars Protocol
 
 Whether you're here to trade, earn, build, or govern - we have all informations here for you. Dive deeper into the ecosystem:
 
