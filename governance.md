@@ -45,9 +45,10 @@ The Builders Multisig can only initiate the necessary on-chain actions, when a p
 
 ### Summary
 
-| Step 1   | Forum              | ≥ 3 days | Community & Contributors  |
-| -------- | ------------------ | -------- | ------------------------- |
-| Step 2   | DAO DAO Governance | 3 days   | Staked MARS Token Holders |
-| Step 3\* | Builders Multisig  | N/A      | 3 of 5 Mars Contributors  |
+| Stage               | Platform                                   | Duration | Who Participates          |
+| ------------------- | ------------------------------------------ | -------- | ------------------------- |
+| Step 1              | [Forum](https://forum.marsprotocol.io/)    | ≥ 3 days | Community & Contributors  |
+| Step 2              | [DAO DAO Governance](https://daodao.zone/) | 3 days   | Staked MARS Token Holders |
+| Step 3<sup>\*</sup> | Builders Multisig                          | N/A      | 3 of 5 Mars Contributors  |
 
 \*Optional step, only for proposals requiring manual execution.

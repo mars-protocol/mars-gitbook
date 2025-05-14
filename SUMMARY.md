@@ -14,7 +14,7 @@
 * [Managed Vaults](managed-vaults/README.md)
   * [Creating & Managing a Vault](managed-vaults/creating-and-managing-a-vault.md)
 * [Risk Methodology](risk-methodology.md)
-* [Governance](governance/README.md)
+* [Governance](governance.md)
   * [MARS Token](governance/mars-token.md)
 * [Smart Contracts](smart-contracts/README.md)
   * [Address Provider](smart-contracts/address-provider.md)
