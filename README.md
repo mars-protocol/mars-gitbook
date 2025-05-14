@@ -2,7 +2,7 @@
 
 ## What is Mars Protocol?
 
-Mars Protocol is a Gen3 DeFi leverage protocol designed to maximize capital efficiency through its innovative Credit Account primitive, also known as Mars Rover.
+Mars Protocol is a Gen3 DeFi leverage protocol designed to maximize capital efficiency through its innovative Credit Account primitive.
 
 ### Key Features
 
