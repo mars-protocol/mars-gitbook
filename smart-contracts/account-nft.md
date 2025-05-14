@@ -76,10 +76,12 @@ type Expiration =
 {% code title="Query message" %}
 ```typescript
 {
-    include_expired?: boolean | null
-    limit?: number | null
-    owner: string
-    start_after?: string | null
+    all_operators: {
+        include_expired?: boolean | null
+        limit?: number | null
+        owner: string
+        start_after?: string | null
+    }
 }
 ```
 {% endcode %}
