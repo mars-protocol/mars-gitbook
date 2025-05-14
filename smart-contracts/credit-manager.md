@@ -471,9 +471,24 @@ swap_exact_in: {
 ```typescript
 {
     data: {
-        
+        data: [
+            {
+                account_id: string
+                order: {
+                    actions: Action[]
+                    conditions: Condition[]
+                    keeper_fee: Coin
+                    order_id: string
+                }
+            },
+            ...
+        ]
+        metadata: {
+            has_more: boolean
+        }
     }
 }
+
 ```
 {% endcode %}
 
@@ -490,9 +505,14 @@ swap_exact_in: {
 {% code title="Return output" %}
 ```typescript
 {
-    data: {
-        
-    }
+    data: [
+        {
+            account_id: string
+            amount: Uint128
+            denom: string
+        },
+        ...
+    ]
 }
 ```
 {% endcode %}
@@ -510,9 +530,14 @@ swap_exact_in: {
 {% code title="Return output" %}
 ```typescript
 {
-    data: {
-        
-    }
+    data: [
+        {
+            account_id: string
+            shares: Uint128
+            denom: string
+        },
+        ...
+    ]
 }
 ```
 {% endcode %}
@@ -533,9 +558,13 @@ swap_exact_in: {
 {% code title="Return output" %}
 ```typescript
 {
-    data: {
-        
-    }
+    data: [
+        {
+            shares: Uint128
+            denom: string
+        },
+        ...
+    ]
 }
 ```
 {% endcode %}
@@ -569,7 +598,9 @@ swap_exact_in: {
             },
             ...
         ]
-        metadata: Metadata
+        metadata: {
+            has_more: boolean
+        }
     }
 }
 ```
@@ -590,10 +621,32 @@ swap_exact_in: {
 
 {% code title="Return output" %}
 ```typescript
-{
-    data: {
-        
-    }
+{    
+    data: [
+        {
+            account_id: string
+            position: {
+                vault_position: {
+                    amount: {
+                        unlocked: string
+                    } | {
+                        locking: {
+                            locked: string
+                            unlocking: [
+                                {
+                                    coin: Coin
+                                    id: number
+                                },
+                            ...
+                            ]
+                        }
+                    }
+                    vault: string
+                }
+            }
+        },
+        ...
+    ]
 }
 ```
 {% endcode %}
@@ -615,7 +668,16 @@ swap_exact_in: {
 ```typescript
 {
     data: {
-        
+        data: [
+            {
+                utilization: Coin
+                vault: string
+            },
+            ...
+        ]
+        metadata: {
+            has_more: boolean
+        }
     }
 }
 ```
@@ -635,7 +697,32 @@ swap_exact_in: {
 ```typescript
 {
     data: {
-        
+        account_nft?: string | null
+        health_contract: string
+        incentives: string
+        keeper_fee_config: {
+            min_fee: Coin
+        }
+        max_slippage: Decimal
+        max_unlocking_positions: Uint128
+        oracle: string
+        ownership: {
+            abolished: boolean
+            emergency_owner?: string | null
+            initialized: boolean
+            owner?: string | null
+            proposed?: string | null
+        }
+        params: string
+        perps: string
+        perps_liquidation_bonus_ratio: Decimal
+        red_bank: string
+        rewards_collector?: {
+          account_id: string
+          address: string
+        } | null
+        swapper: string
+        zapper: string
     }
 }
 ```
@@ -657,9 +744,7 @@ swap_exact_in: {
 {% code title="Return output" %}
 ```typescript
 {
-    data: {
-        
-    }
+    data: Uint128
 }
 ```
 {% endcode %}
@@ -679,9 +764,7 @@ swap_exact_in: {
 {% code title="Return output" %}
 ```typescript
 {
-    data: {
-        
-    }
+    data: Coin[]
 }
 ```
 {% endcode %}
@@ -700,7 +783,65 @@ swap_exact_in: {
 ```typescript
 {
     data: {
-        
+        account_id: string
+        account_kind: AccountKind
+        debts: [
+            {
+                amount: Uint128
+                denom: string
+                shares: Uint128
+            },
+            ...
+        ]
+        deposits: Coin[]
+        lends: Coin[]
+        perps: [
+            {
+                base_denom: string
+                current_exec_price: Decimal
+                current_price: Decimal
+                denom: string
+                entry_exec_price: Decimal
+                entry_price: Decimal
+                realized_pnl: {
+                    accrued_funding: Int128
+                    closing_fee: Int128
+                    opening_fee: Int128
+                    pnl: Int128
+                    price_pnl: Int128
+                }
+                size: Int128
+                unrealized_pnl: {
+                    accrued_funding: Int128
+                    closing_fee: Int128
+                    opening_fee: Int128
+                    pnl: Int128
+                    price_pnl: Int128
+                }
+            },
+            ...
+        ]
+        staked_astro_lps: Coin[]
+        vaults: [
+            {
+                amount: {
+                    unlocked: string
+                } | {
+                    locking: {
+                        locked: string
+                        unlocking: [
+                            {
+                                coin: Coin
+                                id: number
+                            },
+                        ...
+                        ]
+                    }
+                }
+                vault: string
+            },
+            ...
+        ]
     }
 }
 ```
@@ -720,7 +861,8 @@ swap_exact_in: {
 ```typescript
 {
     data: {
-        
+        shares: Uint128
+        denom: string
     }
 }
 ```
@@ -743,7 +885,16 @@ swap_exact_in: {
 ```typescript
 {
     data: {
-        
+        data: [
+            {
+                account_id: string
+                vault_address: string
+            },
+            ...
+        ]
+        metadata: {
+            has_more: boolean
+        }
     }
 }
 ```
@@ -754,25 +905,25 @@ swap_exact_in: {
 {% code title="Query message" %}
 ```typescript
 {
-  vault_position_value: {
-    vault_position: {
-      amount: {
-        unlocked: string
-      } | {
-        locking: {
-          locked: string
-          unlocking: [
-            {
-                coin: Coin
-                id: number
-            },
-            ...
-          ]
+    vault_position_value: {
+        vault_position: {
+            amount: {
+                unlocked: string
+            } | {
+                locking: {
+                    locked: string
+                    unlocking: [
+                        {
+                            coin: Coin
+                            id: number
+                        },
+                    ...
+                    ]
+                }
+            }
+            vault: string
         }
-      }
-      vault: string
     }
-  }
 }
 ```
 {% endcode %}
@@ -781,7 +932,16 @@ swap_exact_in: {
 ```typescript
 {
     data: {
-        
+        base_coin: {
+            amount: Uint128
+            denom: string
+            value: Uint128
+        }
+        vault_coin: {
+            amount: Uint128
+            denom: string
+            value: Uint128
+        }
     }
 }
 ```
@@ -803,7 +963,8 @@ swap_exact_in: {
 ```typescript
 {
     data: {
-        
+          utilization: Coin
+          vault: string
     }
 }
 ```
@@ -811,22 +972,12 @@ swap_exact_in: {
 
 ### Methods
 
-#### callback
-
-{% code title="Execution message" %}
-```typescript
-{
-    
-}
-```
-{% endcode %}
-
 #### create\_credit\_account
 
 {% code title="Execution message" %}
 ```typescript
 {
-    
+    create_credit_account: AccountKind
 }
 ```
 {% endcode %}
@@ -836,7 +987,10 @@ swap_exact_in: {
 {% code title="Execution message" %}
 ```typescript
 {
-    
+    execute_trigger_order: {
+        account_id: string
+        trigger_order_id: string
+    }
 }
 ```
 {% endcode %}
@@ -846,17 +1000,26 @@ swap_exact_in: {
 {% code title="Execution message" %}
 ```typescript
 {
-    
+    repay_from_wallet: {
+        account_id: string
+    }
 }
 ```
 {% endcode %}
 
-#### update\_balances\_After\_deleverage
+#### update\_balances\_after\_deleverage
 
 {% code title="Execution message" %}
 ```typescript
 {
-    
+    update_balance_after_deleverage: {
+        account_id: string
+        pnl:  'break_even' | { 
+            profit: Coin
+        } | {
+            loss: Coin
+        }
+    }
 }
 ```
 {% endcode %}
@@ -866,7 +1029,11 @@ swap_exact_in: {
 {% code title="Execution message" %}
 ```typescript
 {
-    
+    update_credit_account: {
+        account_id?: string | null
+        account_kind?: AccountKind | null
+        actions: Action[]
+    }
 }
 ```
 {% endcode %}
