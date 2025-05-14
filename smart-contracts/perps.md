@@ -12,7 +12,7 @@ The types of the Perps Contract can be found [here](https://github.com/mars-prot
 
 #### config
 
-{% code title="Query message" %}
+{% code title="QueryMsg" %}
 ```typescript
 {
     config: {}
@@ -20,27 +20,9 @@ The types of the Perps Contract can be found [here](https://github.com/mars-prot
 ```
 {% endcode %}
 
-{% code title="Return output" %}
-```typescript
-{
-  data: {
-    address_provider: string
-    base_denom: string
-    cooldown_period: number
-    deleverage_enabled: boolean
-    max_positions: number
-    max_unlocks: number
-    protocol_fee_rate: Decimal
-    target_vault_collateralization_ratio: Decimal
-    vault_withdraw_enabled: boolean
-  }
-}
-```
-{% endcode %}
-
 #### market
 
-{% code title="Query message" %}
+{% code title="QueryMsg" %}
 ```typescript
 {
     market: {
@@ -50,25 +32,9 @@ The types of the Perps Contract can be found [here](https://github.com/mars-prot
 ```
 {% endcode %}
 
-{% code title="Return output" %}
-```typescript
-{
-  data: {
-    current_funding_rate: SignedDecimal
-    denom: string
-    enabled: boolean
-    long_oi: Uint128
-    long_oi_value: Uint128
-    short_oi: Uint128
-    short_oi_value: Uint128
-  }
-}
-```
-{% endcode %}
-
 #### market\_accounting
 
-{% code title="Query message" %}
+{% code title="QueryMsg" %}
 ```typescript
 {
     market_accounting: {
@@ -78,48 +44,9 @@ The types of the Perps Contract can be found [here](https://github.com/mars-prot
 ```
 {% endcode %}
 
-{% code title="Return output" %}
-```typescript
-{
-  data: {
-    accounting: {
-      balance: {
-        accrued_funding: Int128
-        closing_fee: Int128
-        opening_fee: Int128
-        price_pnl: Int128
-        total: Int128
-      }
-      cash_flow: {
-        accrued_funding: Int128
-        closing_fee: Int128
-        opening_fee: Int128
-        price_pnl: Int128
-        protocol_fee: Uint128
-      }
-      withdrawal_balance: {
-        accrued_funding: Int128
-        closing_fee: Int128
-        opening_fee: Int128
-        price_pnl: Int128
-        total: Int128
-      }
-    }
-    unrealized_pnl: {
-      accrued_funding: Int128
-      closing_fee: Int128
-      opening_fee: Int128
-      pnl: Int128
-      price_pnl: Int128
-    }
-  }
-}
-```
-{% endcode %}
-
 #### market\_state
 
-{% code title="Query message" %}
+{% code title="QueryMsg" %}
 ```typescript
 {
     market_state: {
@@ -131,7 +58,7 @@ The types of the Perps Contract can be found [here](https://github.com/mars-prot
 
 #### markets
 
-{% code title="Query message" %}
+{% code title="QueryMsg" %}
 ```typescript
 {
     markets: {
@@ -144,7 +71,7 @@ The types of the Perps Contract can be found [here](https://github.com/mars-prot
 
 #### opening\_fee
 
-<pre class="language-typescript" data-title="Query message"><code class="lang-typescript">{
+<pre class="language-typescript" data-title="QueryMsg"><code class="lang-typescript">{
     opening_fee: {
         denom: string
         size: Int128
@@ -154,7 +81,7 @@ The types of the Perps Contract can be found [here](https://github.com/mars-prot
 
 #### owner
 
-{% code title="Query message" %}
+{% code title="QueryMsg" %}
 ```typescript
 {
     owner: {}
@@ -164,7 +91,7 @@ The types of the Perps Contract can be found [here](https://github.com/mars-prot
 
 #### position
 
-{% code title="Query message" %}
+{% code title="QueryMsg" %}
 ```typescript
 {
     position: {
@@ -179,7 +106,7 @@ The types of the Perps Contract can be found [here](https://github.com/mars-prot
 
 #### position\_fees
 
-{% code title="Query message" %}
+{% code title="QueryMsg" %}
 ```typescript
 {
     position_fees: {
@@ -193,7 +120,7 @@ The types of the Perps Contract can be found [here](https://github.com/mars-prot
 
 #### positions
 
-{% code title="Query message" %}
+{% code title="QueryMsg" %}
 ```typescript
 {
     positions: {
@@ -206,7 +133,7 @@ The types of the Perps Contract can be found [here](https://github.com/mars-prot
 
 #### positions\_by\_account
 
-{% code title="Query message" %}
+{% code title="QueryMsg" %}
 ```typescript
 {
     positions_by_account: {
@@ -219,7 +146,7 @@ The types of the Perps Contract can be found [here](https://github.com/mars-prot
 
 #### realized\_pnl\_by\_account\_and\_market
 
-{% code title="Query message" %}
+{% code title="QueryMsg" %}
 ```typescript
 {
     realized_pnl_by_account_and_market: {
@@ -232,7 +159,7 @@ The types of the Perps Contract can be found [here](https://github.com/mars-prot
 
 #### total\_accounting
 
-{% code title="Query message" %}
+{% code title="QueryMsg" %}
 ```typescript
 {
     total_accounting: {}
@@ -242,7 +169,7 @@ The types of the Perps Contract can be found [here](https://github.com/mars-prot
 
 #### vault
 
-{% code title="Query message" %}
+{% code title="QueryMsg" %}
 ```typescript
 {
     vault: {
@@ -254,7 +181,7 @@ The types of the Perps Contract can be found [here](https://github.com/mars-prot
 
 #### vault\_position
 
-{% code title="Query message" %}
+{% code title="QueryMsg" %}
 ```typescript
 {
     vault_position: {
