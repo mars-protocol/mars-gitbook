@@ -63,6 +63,8 @@ Provides the address of a certain contract type.
 
 #### addresses
 
+Provides an array of addresses for provided contract types.
+
 {% code title="Query message" %}
 ```typescript
 {
