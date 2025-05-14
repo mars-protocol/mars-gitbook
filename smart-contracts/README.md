@@ -1,6 +1,8 @@
 # Smart Contracts
 
-The Mars Protocol utilizes a set of Smart Contracts. [OAK has audited all Mars Protocol Contracts](https://github.com/mars-protocol/mars-audits).\
+
+
+The Mars Protocol utilizes a set of Smart Contracts. [Oak and Halborn have audited all Mars Protocol Contracts](https://github.com/mars-protocol/mars-audits).\
 As a fully open source project, the Mars Protocol Smart Contracts are subject to a GPL-3.0 license and available on GitHub in this [repository](https://github.com/mars-protocol/core-contracts).
 
 
@@ -21,4 +23,3 @@ As a fully open source project, the Mars Protocol Smart Contracts are subject to
 | [**Swapper**](swapper.md)                     | [neutron1udr9fc3kd743dezrj38v2ac74pxxr6qsx4xt4nfpcfczgw52rvyqyjp5au](https://neutron.celat.one/neutron-1/contracts/neutron1udr9fc3kd743dezrj38v2ac74pxxr6qsx4xt4nfpcfczgw52rvyqyjp5au)                          | [osmo1wee0z8c7tcawyl647eapqs4a88q8jpa7ddy6nn2nrs7t47p2zhxswetwla](https://osmosis.celat.one/osmosis-1/contracts/osmo1wee0z8c7tcawyl647eapqs4a88q8jpa7ddy6nn2nrs7t47p2zhxswetwla) |
 | [**Zapper**](zapper.md)                       | [neutron1dr0ckm3u2ztjuscmgqjr85lwyduphxkgl3tc02ac8zp54r05t5dqp5tgyq](https://neutron.celat.one/neutron-1/contracts/neutron1dr0ckm3u2ztjuscmgqjr85lwyduphxkgl3tc02ac8zp54r05t5dqp5tgyq)                          | [osmo17qwvc70pzc9mudr8t02t3pl74hhqsgwnskl734p4hug3s8mkerdqzduf7c](https://osmosis.celat.one/osmosis-1/contracts/osmo17qwvc70pzc9mudr8t02t3pl74hhqsgwnskl734p4hug3s8mkerdqzduf7c) |
 | [**Perps**](perps.md)                         | [neutron1g3catxyv0fk8zzsra2mjc0v4s69a7xygdjt85t54l7ym3gv0un4q2xhaf6](https://neutron.celat.one/neutron-1/contracts/neutron1g3catxyv0fk8zzsra2mjc0v4s69a7xygdjt85t54l7ym3gv0un4q2xhaf6)                          |                                                                                                                                                                                  |
-
