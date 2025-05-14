@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Overview](README.md)
+* [Welcome to Mars Protocol](README.md)
 * [Getting Started](getting-started/README.md)
   * [How to set up a Wallet](getting-started/how-to-set-up-a-wallet.md)
   * [Starting from a CEX (Coinbase)](getting-started/starting-from-a-cex-coinbase.md)
