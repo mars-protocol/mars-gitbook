@@ -66,3 +66,15 @@ If you funded the vault during creation, it will also appear on the main public 
 The **vault title, deposit asset, description, and withdrawal lockup period** cannot be changed after creation.
 
 You can still adjust the **performance fee** later - but only once per month, typically during the performance fee claim window.
+
+
+
+## Managing Your Vault
+
+After successfully creating your Vault, you’ll be redirected to its management dashboard. This is your control center for monitoring performance, managing positions, and preparing for withdrawals.
+
+You can return to this page anytime via the **vault page**, your **portfolio**, or by selecting the vault from the **Credit Account dropdown menu**.
+
+Here’s what your vault overview will look like:
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-05-14 at 8.40.43 PM.png" alt=""><figcaption></figcaption></figure>
