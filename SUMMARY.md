@@ -1,0 +1,16 @@
+# Table of contents
+
+* [What is Mars Protocol?](README.md)
+* [Getting Started](getting-started/README.md)
+  * [How to set up a Wallet](getting-started/how-to-set-up-a-wallet.md)
+  * [Starting from a CEX (Coinbase)](getting-started/starting-from-a-cex-coinbase.md)
+  * [Creating a Credit Account](getting-started/creating-a-credit-account.md)
+* [The Credit Account](the-credit-account.md)
+* [Perpetual Futures (Perps)](perpetual-futures-perps.md)
+* [Spot & Margin Trading](spot-and-margin-trading.md)
+* [Lending & Borrowing](lending-and-borrowing.md)
+* [Leveraged Yield Farming](leveraged-yield-farming.md)
+* [High Leverage Strategies](high-leverage-strategies.md)
+* [Managed Vaults](managed-vaults.md)
+* [Risk Methodology](risk-methodology.md)
+* [Governance](governance.md)
