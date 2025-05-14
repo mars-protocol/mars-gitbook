@@ -4,7 +4,7 @@ description: The Mars Protocol follows a strict Governance process.
 
 # Governance
 
-The Mars Protocol governance process enables the community to propose, discuss, and implement changes in a structured and transparent manner. It consists of **two to three stages**, depending on the type of proposal.
+The Mars Protocol governance process enables the community to propose, discuss, and implement changes in a structured and transparent manner. It consists of **two to three stages**, depending on the type of proposal
 
 ### Step 1:  Proposal Draft on Forum
 
@@ -21,13 +21,15 @@ Anyone—including Mars Protocol contributors - must start by posting a proposal
 Once a forum draft achieves consensus, it is submitted on-chain through the [Mars Protocol DAO DAO Governance Interface](https://daodao.zone/).
 
 * **Voting Period:** 3 days.
-* **Eligibility:** Only users who **staked MARS tokens prior to proposal creation** are eligible to vote.
+* **Eligibility:** Only users who **staked** [**MARS tokens**](governance/mars-token.md) **prior to proposal creation** are eligible to vote.
 * **Voting Options:**
   * Yes
   * No
   * Abstain
 
 > Many proposals are **signaling-only**, meaning they express intent without automated execution. Others may include executable messages or require manual follow-up actions.
+
+
 
 ### Step 3 (Optional): Builders Multisig Execution
 
@@ -45,10 +47,10 @@ The Builders Multisig can only initiate the necessary on-chain actions, when a p
 
 ### Summary
 
-| Stage               | Platform                                   | Duration | Who Participates          |
-| ------------------- | ------------------------------------------ | -------- | ------------------------- |
-| Step 1              | [Forum](https://forum.marsprotocol.io/)    | ≥ 3 days | Community & Contributors  |
-| Step 2              | [DAO DAO Governance](https://daodao.zone/) | 3 days   | Staked MARS Token Holders |
-| Step 3<sup>\*</sup> | Builders Multisig                          | N/A      | 3 of 5 Mars Contributors  |
+| Stage               | Platform                                   | Duration | Who Participates                                      |
+| ------------------- | ------------------------------------------ | -------- | ----------------------------------------------------- |
+| Step 1              | [Forum](https://forum.marsprotocol.io/)    | ≥ 3 days | Community & Contributors                              |
+| Step 2              | [DAO DAO Governance](https://daodao.zone/) | 3 days   | Staked [MARS Token](governance/mars-token.md) Holders |
+| Step 3<sup>\*</sup> | Builders Multisig                          | N/A      | 3 of 5 Mars Contributors                              |
 
 \*Optional step, only for proposals requiring manual execution.
