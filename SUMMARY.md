@@ -5,7 +5,7 @@
   * [How to set up a Wallet](getting-started/how-to-set-up-a-wallet.md)
   * [Starting from a CEX (Coinbase)](getting-started/starting-from-a-cex-coinbase.md)
   * [Creating a Credit Account](getting-started/creating-a-credit-account.md)
-* [The Credit Account](the-credit-account.md)
+* [Credit Accounts](credit-accounts.md)
 * [Perpetual Futures (Perps)](perpetual-futures-perps.md)
 * [Spot & Margin Trading](spot-and-margin-trading.md)
 * [Lending & Borrowing](lending-and-borrowing.md)

@@ -1,8 +1,8 @@
-# The Credit Account
-
-### Understanding Credit Accounts on Mars
+# Credit Accounts
 
 <div align="left"><figure><img src=".gitbook/assets/accountSummary.png" alt=""><figcaption></figcaption></figure></div>
+
+### Understanding Credit Accounts on Mars
 
 To understand how a Credit Account works, let's break down some key concepts:
 
