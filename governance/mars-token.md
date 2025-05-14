@@ -7,6 +7,8 @@ description: >-
 
 # MARS Token
 
+{% embed url="https://www.coingecko.com/en/coins/mars-protocol" %}
+
 ## Tokenomics
 
 ### Total Supply
