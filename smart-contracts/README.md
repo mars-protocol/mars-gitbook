@@ -1,7 +1,7 @@
 # Smart Contracts
 
-The Mars Protocol utilizes a set of Smart Contracts. All Contracts have been audited by OAK.\
-As a fully open source project, the Mars Protocol Smart Contracts are subject to a GPL-3.0 license and available on GitHub in this [repository](https://github.com/mars-protocol/contracts).
+The Mars Protocol utilizes a set of Smart Contracts. [OAK has audited all Mars Protocol Contracts](https://github.com/mars-protocol/mars-audits).\
+As a fully open source project, the Mars Protocol Smart Contracts are subject to a GPL-3.0 license and available on GitHub in this [repository](https://github.com/mars-protocol/core-contracts).
 
 
 
