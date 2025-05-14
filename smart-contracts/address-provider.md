@@ -6,6 +6,8 @@ Neutron: [neutron17yehp4x7n79zq9dlw4g7xmnrvwdjjj2yecq26844sg8yu74knlxqfx5vqv](ht
 
 Osmosis: [osmo1g677w7mfvn78eeudzwylxzlyz69fsgumqrscj6tekhdvs8fye3asufmvxr](https://osmosis.celat.one/osmosis-1/contracts/osmo1g677w7mfvn78eeudzwylxzlyz69fsgumqrscj6tekhdvs8fye3asufmvxr)
 
+***
+
 ### Types
 
 The types of the Address Provider Contract can be found [here](https://github.com/mars-protocol/core-contracts/blob/master/scripts/types/generated/mars-address-provider/MarsAddressProvider.types.ts).
@@ -25,6 +27,8 @@ type MarsAddressType =
   | 'revenue_share'
 ```
 {% endcode %}
+
+***
 
 ### Queries
 

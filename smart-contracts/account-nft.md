@@ -2,9 +2,11 @@
 
 ### Deployments
 
-Neutron: [neutron17yehp4x7n79zq9dlw4g7xmnrvwdjjj2yecq26844sg8yu74knlxqfx5vqv](https://neutron.celat.one/neutron-1/contracts/neutron17yehp4x7n79zq9dlw4g7xmnrvwdjjj2yecq26844sg8yu74knlxqfx5vqv)
+Neutron: [neutron184kvu96rqtetmunkkmhu5hru8yaqg7qfhd8ldu5avjnamdqu69squrh3f5](https://neutron.celat.one/neutron-1/contracts/neutron184kvu96rqtetmunkkmhu5hru8yaqg7qfhd8ldu5avjnamdqu69squrh3f5)
 
-Osmosis: [osmo1g677w7mfvn78eeudzwylxzlyz69fsgumqrscj6tekhdvs8fye3asufmvxr](https://osmosis.celat.one/osmosis-1/contracts/osmo1g677w7mfvn78eeudzwylxzlyz69fsgumqrscj6tekhdvs8fye3asufmvxr)
+Osmosis: [osmo1450hrg6dv2l58c0rvdwx8ec2a0r6dd50hn4frk370tpvqjhy8khqw7sw09](https://osmosis.celat.one/osmosis-1/contracts/osmo1450hrg6dv2l58c0rvdwx8ec2a0r6dd50hn4frk370tpvqjhy8khqw7sw09)
+
+***
 
 ### Types
 
@@ -28,6 +30,8 @@ type Expiration =
     }
 ```
 {% endcode %}
+
+***
 
 ### Queries
 
@@ -347,6 +351,8 @@ type Expiration =
 }
 ```
 {% endcode %}
+
+***
 
 ### Methods
 

@@ -4,6 +4,8 @@
 
 Neutron: [neutron1g3catxyv0fk8zzsra2mjc0v4s69a7xygdjt85t54l7ym3gv0un4q2xhaf6](https://neutron.celat.one/neutron-1/contracts/neutron1g3catxyv0fk8zzsra2mjc0v4s69a7xygdjt85t54l7ym3gv0un4q2xhaf6)
 
+***
+
 ### Types
 
 The types of the Perps Contract can be found [here](https://github.com/mars-protocol/core-contracts/blob/master/scripts/types/generated/mars-perps/MarsPerps.types.ts).
@@ -18,6 +20,8 @@ type Int128 = string
 type SignedDecimal = string
 ```
 {% endcode %}
+
+***
 
 ### Queries
 
@@ -437,6 +441,20 @@ type SignedDecimal = string
 ```
 {% endcode %}
 
+{% code title="Return output" %}
+```typescript
+{
+    data: {
+        accrued_funding: Int128
+        closing_fee: Int128
+        opening_fee: Int128
+        pnl: Int128
+        price_pnl: Int128
+    }
+}
+```
+{% endcode %}
+
 #### total\_accounting
 
 {% code title="Query message" %}
@@ -549,6 +567,8 @@ type SignedDecimal = string
 ```
 {% endcode %}
 
+***
+
 ### Methods
 
 #### close\_all\_positions
@@ -627,6 +647,8 @@ type SignedDecimal = string
 }
 ```
 {% endcode %}
+
+***
 
 ### Audit
 
