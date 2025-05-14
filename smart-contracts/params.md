@@ -1,3 +1,9 @@
+---
+description: >-
+  The Params Contract provides market, vault, and perp data. It is mandatory to
+  whitelist and enable markets throughout the Mars Protocol ecosystem.
+---
+
 # Params
 
 ### Deployments
@@ -27,6 +33,8 @@ type Uint128 = string
 ### Queries
 
 #### ~~all\_asset\_params~~ (outdated)
+
+Returns all asset params.
 
 {% code title="Query message" %}
 ```typescript

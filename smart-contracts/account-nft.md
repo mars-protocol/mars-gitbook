@@ -1,3 +1,9 @@
+---
+description: >-
+  The Account NFT Contract returns all Credit Account NFT infos and handles the
+  minting and burning of Credit Accounts via the Credit Manager.
+---
+
 # Account NFT
 
 ### Deployments
@@ -36,6 +42,8 @@ type Expiration =
 ### Queries
 
 #### all\_nft\_info
+
+Returns all NFT related infos for a the provided token\_id.
 
 {% code title="Query message" %}
 ```typescript

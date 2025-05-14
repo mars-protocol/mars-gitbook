@@ -1,3 +1,10 @@
+---
+description: >-
+  The Swapper Contract wraps the underlying decentralized exchange (DEX) to work
+  with the Credit Manager. It checks the minimum received amounts and reverts
+  swaps with too much slippage.
+---
+
 # Swapper
 
 ### Deployments
@@ -35,6 +42,8 @@ interface Coin {
 ### Queries
 
 #### config
+
+Returns the Contracts configuration.
 
 {% code title="Query message" %}
 ```typescript

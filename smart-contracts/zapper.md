@@ -1,3 +1,10 @@
+---
+description: >-
+  The Zapper contract serves as a wrapper to facilitate the provision and
+  withdrawal of liquidity for the Mars Protocols Farm feature. It also handles
+  estimations based on the data provided.
+---
+
 # Zapper
 
 ### Deployments
@@ -36,6 +43,8 @@ interface Coin {
 ### Queries
 
 #### estimate\_provide\_liquidity
+
+Estimates the amount of liquidity pool (LP) tokens that are returned after providing liquidity to a certain LP.
 
 {% code title="Query message" %}
 ```typescript

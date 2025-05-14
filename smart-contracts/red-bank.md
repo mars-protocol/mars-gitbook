@@ -1,3 +1,10 @@
+---
+description: >-
+  The Red Bank Contract is the heart of the Mars Protocol's Money Market. It
+  holds all assets deposited to Mars and provides the v1 market interactions
+  through the user's wallet.
+---
+
 # Red Bank
 
 ### Deployments
@@ -27,9 +34,10 @@ type Uint128 = string
 
 #### config
 
+Returns the Contracts configuration.
+
 {% code title="Query message" %}
 ```typescript
-{
     config: {}    
 }
 ```

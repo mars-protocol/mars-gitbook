@@ -1,3 +1,10 @@
+---
+description: >-
+  The Perps Contract provides data for the Perpetual Futures platform. It
+  returns all market states and is needed for the Credit Manager to be able to
+  execute trigger orders.
+---
+
 # Perps
 
 ### Deployments
@@ -26,6 +33,8 @@ type SignedDecimal = string
 ### Queries
 
 #### config
+
+Returns the Contracts configuration.
 
 {% code title="Query message" %}
 ```typescript

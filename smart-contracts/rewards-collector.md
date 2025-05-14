@@ -1,3 +1,10 @@
+---
+description: >-
+  The Rewards Collector Contract provides all the needed methods to withdraw
+  generated fees and revenue from the Mars Protocol. It also handles swapping
+  the collected revenue/fees to a specified asset.
+---
+
 # Rewards Collector
 
 ### Deployments
@@ -17,6 +24,8 @@ The types of the Rewards Collector Contract can be found [here](https://github.c
 ### Queries
 
 #### config
+
+Returns the Contracts configuration.
 
 {% code title="Query message" %}
 ```typescript

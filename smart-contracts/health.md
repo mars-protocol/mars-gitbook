@@ -1,3 +1,9 @@
+---
+description: >-
+  The Health Contract calculates the health factor of user positions. It is used
+  to enable and disable the liquidation by the Credit Manager.
+---
+
 # Health
 
 ### Deployments
@@ -17,6 +23,8 @@ The types of the Health Contract can be found [here](https://github.com/mars-pro
 ### Queries
 
 #### config
+
+Returns the contracts configuration.
 
 {% code title="Query message" %}
 ```typescript

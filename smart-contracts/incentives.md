@@ -1,3 +1,10 @@
+---
+description: >-
+  The Incentives Contract handles additional incentives. It offers the
+  capability to incentivise markets permissionlessly by third parties. Incentive
+  assets have to be whitelisted to be applied.
+---
+
 # Incentives
 
 ### Deployments
@@ -37,6 +44,8 @@ interface Coin {
 ### Queries
 
 #### active\_emissions
+
+Return active emissions for a specific market by denom.
 
 {% code title="Query message" %}
 ```typescript

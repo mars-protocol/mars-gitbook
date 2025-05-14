@@ -1,3 +1,10 @@
+---
+description: >-
+  The Credit Manager Contract is the centerpiece of the Mars Protocol v2. It
+  serves as a proxy between the user, the Red Bank, the liquidation engine, and
+  the Perps contracts.
+---
+
 # Credit Manager
 
 ### Deployments
@@ -406,6 +413,8 @@ swap_exact_in: {
 ### Queries
 
 #### account\_kind
+
+Returns the AccountKind of a specific account\_id.
 
 {% code title="Query message" %}
 ```typescript

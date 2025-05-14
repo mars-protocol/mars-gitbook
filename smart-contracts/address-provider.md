@@ -1,3 +1,9 @@
+---
+description: >-
+  The Address Provider Contract provides the addresses of all most recent and
+  currently used contracts of the Mars Protocol's set of Smart Contracts.
+---
+
 # Address Provider
 
 ### Deployments
@@ -33,6 +39,8 @@ type MarsAddressType =
 ### Queries
 
 #### address
+
+Provides the address of a certain contract type.
 
 {% code title="Query message" %}
 ```typescript

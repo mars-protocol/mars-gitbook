@@ -1,3 +1,10 @@
+---
+description: >-
+  The Oracle Contract returns the price data for the entire Money Market and the
+  Perps Platform. It utilizes multiple price sources, ranging from external
+  oracles like Pyth or Slinky, to TWAP and Spot.
+---
+
 # Oracle
 
 ### Deployments
@@ -25,6 +32,8 @@ type Decimal = string
 ### Queries
 
 #### config
+
+Returns the Contracts configuration.
 
 {% code title="Query message" %}
 ```typescript
