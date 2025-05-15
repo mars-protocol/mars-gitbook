@@ -34,3 +34,8 @@
   * [Zapper](smart-contracts/zapper.md)
   * [Perps](smart-contracts/perps.md)
 * [Brand assets](brand-assets.md)
+* [Legal](legal/README.md)
+  * [Mars FUD Bible](legal/mars-fud-bible.md)
+  * [Terms of Service](legal/terms-of-service.md)
+  * [Privacy Policy](legal/privacy-policy.md)
+  * [Cookie Policy](legal/cookie-policy.md)
