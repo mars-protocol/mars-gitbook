@@ -87,7 +87,7 @@ Begin your journey with an overview of the protocol and how to get up and runnin
 ### Core Features
 
 * [**Credit Accounts**](credit-accounts.md) – The heart of Mars Protocol
-* [**Perpetual Futures** ](perpetual-futures-perps.md)– Trade Perps with cross-margining
+* [**Perpetual Futures** ](perpetual-futures-perps/)– Trade Perps with cross-margining
 * [**Spot & Margin Trading**](spot-and-margin-trading.md) – Flexible trading with leverage
 * [**Lending & Borrowing**](lending-and-borrowing.md) – Capital-efficient lending markets
 * [**Leveraged Yield Farming**](leveraged-yield-farming.md) – Amplify farming strategies
