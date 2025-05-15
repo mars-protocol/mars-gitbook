@@ -71,7 +71,9 @@ To support users and prospective vault managers, Mars Protocol provides comprehe
 * **Depositing into a Managed Vault**\
   Step-by-step instructions for users to evaluate, select, and deposit into a community vault.
 
-
+{% content-ref url="depositing-into-a-managed-vault.md" %}
+[depositing-into-a-managed-vault.md](depositing-into-a-managed-vault.md)
+{% endcontent-ref %}
 
 ***
 
