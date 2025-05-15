@@ -1,12 +1,14 @@
 ---
 description: >-
-  Mars Protocol is a next-generation DeFi leverage platform designed to maximize
-  capital efficiency through its innovative Credit Account system.
+  A next-generation DeFi leverage platform designed to maximize capital
+  efficiency through its innovative Credit Account system.
 ---
 
 # Welcome to Mars Protocol
 
-It empowers users with sophisticated trading tools and yield opportunities while maintaining a balanced ecosystem for both **risk-takers** and **risk-reducers**.
+The Mars Protocol empowers users with sophisticated trading tools and yield opportunities while maintaining a balanced ecosystem for both **risk-takers** and **risk-reducers**.
+
+<div data-full-width="true"><figure><img src=".gitbook/assets/banner.png" alt=""><figcaption><p>Welcome to Mars Protocol</p></figcaption></figure></div>
 
 ## What is Mars Protocol?
 
