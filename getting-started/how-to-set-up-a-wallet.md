@@ -63,15 +63,9 @@ Now proceed to our [**Connect your wallet**](connect-your-wallet.md) guide
 [connect-your-wallet.md](connect-your-wallet.md)
 {% endcontent-ref %}
 
+***
 
-
-
-
-
-
-
-
-
+## Video Tutorial
 
 {% embed url="https://www.youtube.com/watch?v=cmxx_hIulz8" %}
 Learn how to set up the Keplr Wallet extension
