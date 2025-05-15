@@ -90,3 +90,8 @@ Below is an example of a Credit Account, showing how collateral, debt, and healt
    * Using LiqLTV: 1.07 (provides a small buffer against liquidation)
 
 The difference between MaxLTV and LiqLTV creates a safety margin, allowing for some market fluctuation before the account becomes at risk of liquidation.
+
+### Tutorial
+
+* [Mars Credit Accounts](https://www.youtube.com/watch?v=vyPLJWzRs80)
+
