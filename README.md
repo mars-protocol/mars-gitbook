@@ -91,7 +91,7 @@ Begin your journey with an overview of the protocol and how to get up and runnin
 * [**Spot & Margin Trading**](spot-and-margin-trading.md) – Flexible trading with leverage
 * [**Lending & Borrowing**](lending-and-borrowing.md) – Capital-efficient lending markets
 * [**Leveraged Yield Farming**](leveraged-yield-farming.md) – Amplify farming strategies
-* [**High-Leverage Strategies**](high-leverage-strategies.md) – Looping for experienced power users
+* [**High-Leverage Strategies**](high-leverage-strategies/) – Looping for experienced power users
 * [**Managed Vaults**](managed-vaults/) – Let pros manage strategies for you or run strategies for the community
 
 ***
