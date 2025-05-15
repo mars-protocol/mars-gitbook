@@ -8,8 +8,8 @@ For a step-by-step guide on how to get started, check out these helpful tutorial
 [how-to-set-up-a-wallet.md](how-to-set-up-a-wallet.md)
 {% endcontent-ref %}
 
-{% content-ref url="starting-from-a-cex-coinbase.md" %}
-[starting-from-a-cex-coinbase.md](starting-from-a-cex-coinbase.md)
+{% content-ref url="connect-your-wallet.md" %}
+[connect-your-wallet.md](connect-your-wallet.md)
 {% endcontent-ref %}
 
 {% content-ref url="creating-a-credit-account.md" %}

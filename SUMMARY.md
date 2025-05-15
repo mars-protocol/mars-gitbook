@@ -2,7 +2,6 @@
 
 * [Welcome to Mars Protocol](README.md)
 * [Getting Started](getting-started/README.md)
-  * [Starting from a CEX (Coinbase)](getting-started/starting-from-a-cex-coinbase.md)
   * [How to set up a Wallet](getting-started/how-to-set-up-a-wallet.md)
   * [Connect your wallet](getting-started/connect-your-wallet.md)
   * [Creating a Credit Account](getting-started/creating-a-credit-account.md)

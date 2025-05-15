@@ -12,7 +12,6 @@ Some supported options include:
 
 * <img src="../.gitbook/assets/image (5).png" alt="" data-size="line"> [**Keplr**](https://www.keplr.app/)
 * <img src="../.gitbook/assets/Icon _ Transparent.svg" alt="" data-size="line"> [**Leap**](https://www.leapwallet.io/)
-* <img src="../.gitbook/assets/App Icon White.png" alt="" data-size="line"> [**Ctrl**](https://ctrl.xyz/)
 * <img src="../.gitbook/assets/cosmostation-symbol.png" alt="" data-size="line"> [**Cosmostation**](https://cosmostation.io/products/cosmostation_extension)
 * <img src="../.gitbook/assets/MetaMask-icon-fox-with-margins.svg" alt="" data-size="line"> [**MetaMask**](https://snaps.metamask.io/snap/npm/leapwallet/metamask-cosmos-snap/) (via the Leap Cosmos Snap integration)
 
@@ -58,7 +57,11 @@ Some supported options include:
 ### Next Steps
 
 You’re all set! Your new Cosmos-compatible wallet is ready.\
-➡️ Now proceed to our [**Connect your wallet**](connect-your-wallet.md) guide
+Now proceed to our [**Connect your wallet**](connect-your-wallet.md) guide
+
+{% content-ref url="connect-your-wallet.md" %}
+[connect-your-wallet.md](connect-your-wallet.md)
+{% endcontent-ref %}
 
 
 
