@@ -75,6 +75,38 @@ After successfully creating your Vault, you’ll be redirected to its management
 
 You can return to this page anytime via the **vault page**, your **portfolio**, or by selecting the vault from the **Credit Account dropdown menu**.
 
-Here’s what your vault overview will look like:
+> This screen provides a live overview of your vault’s performance, withdrawal status, and available management actions.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-05-14 at 8.40.43 PM.png" alt=""><figcaption></figcaption></figure>
+
+### Key Areas of the Vault Dashboard
+
+Here are the key elements you'll find on the vault dashboard:
+
+* **Vault Summary (left panel)**\
+  Shows your vault’s title, description, APY, total value locked (TVL), performance fee %, and the withdrawal freeze period. It also includes your Stargaze-linked identity (if connected).
+* **Performance Fee Panel (top panel)**\
+  Displays how much in fees you’ve earned. You can only claim performance fees once per month -typically during the claim window. A claim button will appear when available.
+* **Deposit / Unlock Buttons**\
+  You can deposit additional funds into your own vault or unlock funds if you’ve previously deposited and requested withdrawal.
+*   **Withdrawal Summary Tab**\
+    This section provides key insight into withdrawal activity and vault liquidity. You should monitor it closely to ensure your vault can fulfill queued withdrawals.
+
+    Here’s what it shows:
+
+    *   **Accrued PnL** - Displays profit (or loss) generated since the last performance fee withdrawal. This determines your claimable fee.
+
+        > This value only updates when a user interacts with the vault (e.g. deposits or withdrawals). If there’s no activity, it may appear unchanged even if your positions have moved in value.
+    * **My Withdrawals tab** – Lets you track any pending withdrawal requests made from your own vault deposits.
+    *   **Queued Withdrawals vs. Vault Balance** – Shows how much has been requested for withdrawal vs. how much of the deposit asset is available.
+
+        > If there's a shortfall, the system will **automatically borrow the asset from the Red Bank** to fulfill the withdrawals. It's your responsibility to monitor this and prepare accordingly.
+    * **My Withdrawals tab** – Lets you track any pending withdrawal requests made from your own vault deposits.
+* **Health & Position Metrics (bottom panel)**\
+  Displays key risk indicators such as health factor, leverage, total position value, debt, and current position APY.
+
+> If your vault has any active positions, the bottom panel will display additional tabs such as Summary, Balances, and Positions.
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 9.20.58 PM.png" alt=""><figcaption></figcaption></figure>
+
+\
