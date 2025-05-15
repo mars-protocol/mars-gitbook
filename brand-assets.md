@@ -8,7 +8,7 @@ description: Mars Protocol Brand Assets and Backgrounds.
 
 ### Mars
 
-<div align="left"><figure><img src=".gitbook/assets/mars.svg" alt="" width="113"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src=".gitbook/assets/mars.svg" alt="" width="113"><figcaption><p>Mars Logo</p></figcaption></figure></div>
 
 Download
 
@@ -19,11 +19,11 @@ Download
 
 ### Grid
 
-<div align="left"><figure><img src=".gitbook/assets/mars-grid.svg" alt="" width="113"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src=".gitbook/assets/mars-grid-preview.svg" alt="" width="128"><figcaption><p>Mars Grid Logo</p></figcaption></figure></div>
 
 Download
 
-* [SVG](https://raw.githubusercontent.com/mars-protocol/mars-gitbook/refs/heads/main/.gitbook/assets/mars-grid.svg)
+* [SVG](https://raw.githubusercontent.com/mars-protocol/mars-gitbook/refs/heads/main/.gitbook/assets/mars-grid.png)
 * [PNG](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQ1QJGh6xDAza1TZJ10LB%2Fuploads%2FZMVlFcmx4BWpxFg3OCD6%2Fmars-grid.png?alt=media\&token=e2283d2b-eca2-4151-b6ae-19e2b3f88651)
 
 ***
