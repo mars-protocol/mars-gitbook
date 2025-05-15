@@ -106,7 +106,7 @@ Here are the key elements you'll find on the vault dashboard:
 * **Health & Position Metrics (bottom panel)**\
   Displays key risk indicators such as health factor, leverage, total position value, debt, and current position APY.
 
-> If your vault has any active positions, the bottom panel will display additional tabs such as Summary, Balances, and Positions.
+> If your vault has any active positions, the bottom panel will display additional tabs such as Summary, Balances, and Perps Positions.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 9.20.58 PM.png" alt=""><figcaption></figcaption></figure>
 
