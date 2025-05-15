@@ -62,6 +62,5 @@ Interest rates are calculated as follows:
 
 ### Tutorials
 
-* [Lending an Asset on Mars](https://youtube.link-1)
-* [Borrowing to Credit Account or Wallet](https://youtube.link-2)
-* [Repaying Debt](https://youtube.link-3)
+* [Lending and Borrowing](https://www.youtube.com/watch?v=mIXxmkrlWNI)
+
