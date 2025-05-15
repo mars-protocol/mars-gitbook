@@ -52,5 +52,5 @@ It's crucial to monitor your account health regularly when trading on leverage a
 
 ### Tutorial
 
-* [Spot and Margin Trading](https://www.youtube.com/watch?v=hI6CLS3lTTE)
+{% embed url="https://www.youtube.com/watch?v=hI6CLS3lTTE" %}
 

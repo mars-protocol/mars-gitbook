@@ -62,5 +62,5 @@ Interest rates are calculated as follows:
 
 ### Tutorials
 
-* [Lending and Borrowing](https://www.youtube.com/watch?v=mIXxmkrlWNI)
+{% embed url="https://www.youtube.com/watch?v=mIXxmkrlWNI" %}
 
