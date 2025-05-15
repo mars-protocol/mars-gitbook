@@ -12,13 +12,13 @@ Anyone—including Mars Protocol contributors - must start by posting a proposal
 
 * **Purpose:** Open community discussion and feedback.
 * **Duration:** Must remain open for **at least 3 days**.
-* **Requirement:** A proposal can only move forward if there is **clear consensus on its feasibility and rationale**.
+* **Requirement:** A proposal (Mars Request for Comment \[MRC]) can only move forward if there is **clear consensus on its feasibility and rationale**.
 
 
 
 ### Step 2: On-Chain Voting via DAO DAO
 
-Once a forum draft achieves consensus, it is submitted on-chain through the [Mars Protocol DAO DAO Governance Interface](https://daodao.zone/).
+Once a forum draft achieves consensus, it can be submitted on-chain through the [Mars Protocol DAO DAO Governance Interface](https://daodao.zone/dao/neutron1pxjszcmmdxwtw9kv533u3hcudl6qahsa42chcs24gervf4ge40usaw3pcr).
 
 * **Voting Period:** 3 days.
 * **Eligibility:** Only users who **staked** [**MARS tokens**](governance/mars-token.md) **prior to proposal creation** are eligible to vote.
@@ -27,7 +27,9 @@ Once a forum draft achieves consensus, it is submitted on-chain through the [Mar
   * No
   * Abstain
 
-> Many proposals are **signaling-only**, meaning they express intent without automated execution. Others may include executable messages or require manual follow-up actions.
+> On Neutron, the majority of proposals include **executable messages**, meaning actions are carried out automatically once the proposal passes. The rest are signaling proposals that require manual follow-up.
+>
+> On Osmosis, by contrast, **all proposals are signaling-only**, so every action must be manually executed after the vote passes.
 
 
 
@@ -41,7 +43,18 @@ Some proposals, especially those involving smart contract changes, require manua
   * Broadcasting specific transactions
 
 The Builders Multisig can only initiate the necessary on-chain actions, when a proposal has passed governance via DAO DAO.\
+\
+\
 
+
+## Risk Management DAO
+
+Mars Protocol also includes a **Risk Management DAO**, which has special authority to update asset and perpetual market configurations **without going through the full governance process**.
+
+Exceptions apply:
+
+* **Liquidation thresholds**
+* **New asset or perps listings**
 
 
 
