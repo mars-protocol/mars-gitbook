@@ -1,54 +1,103 @@
+---
+description: >-
+  Mars Protocol supports two primary modes of trading: Spot Trading and Margin
+  Trading.
+---
+
 # Spot & Margin Trading
 
-Mars Protocol offers two primary trading methods: Spot Trading and Margin Trading. Let's understand how each works and what makes Mars' approach unique.
+These functions are unified within the **Credit Account system**, allowing users to interact with the protocol in a capital-efficient and user-friendly way.
 
-### **Spot Trading**
+***
 
-Spot trading on Mars is straightforward DEX trading where you directly swap one asset for another using the funds available in your Credit Account. No leverage is involved - you're simply exchanging what you have for what you want at the current market price.
+### Spot Trading
 
-### **Margin Trading**
+**Spot Trading** on Mars refers to the **direct exchange of one asset for another** using the funds already available in a user's Credit Account. It does not involve leverage, borrowing, or margin mechanics.
 
-Margin trading takes things a step further by allowing you to trade with leverage. This means you can open larger positions than your deposited capital would normally allow. For example, with 100 USDC in your Credit Account, you could potentially trade 500 USDC worth of TIA by borrowing the additional 400 USDC.
+* Users simply **swap** an asset (e.g., USDC for TIA) at the current market rate.
+* All trades are executed through **integrated decentralized exchanges (DEXs)**.
+* No risk of liquidation exists, as the trade only involves assets the user already owns.
 
-### **Why Mars is Different**
+This mechanism mirrors conventional DEX trading but benefits from Mars’ **unified collateral model** and smooth interface.
 
-Traditional DeFi platforms require multiple steps and interactions with money markets to achieve leverage (known as "looping"):
+***
+
+### Margin Trading
+
+**Margin Trading** enables users to trade with **leverage**—meaning they can take on positions **larger than their current account balance** by borrowing additional assets from the Mars money market (Red Bank).
+
+For example:
+
+* A user with **100 USDC** in their Credit Account may open a **500 USDC** position on TIA by borrowing **400 USDC**.
+* This leveraged exposure amplifies both **potential profits** and **potential losses**.
+
+***
+
+### Why Mars is Different
+
+Traditional DeFi platforms often require a multi-step "looping" strategy to achieve leverage:
 
 1. Deposit collateral
-2. Borrow assets
-3. Swap borrowed assets
-4. Repeat steps 1-3 multiple times
+2. Borrow a second asset
+3. Swap the borrowed asset
+4. Repeat to compound leverage
 
-This approach has two major drawbacks:
+This approach is:
 
-* Capital Inefficiency: Each loop requires new transactions and locks up more capital
-* Poor User Experience: Multiple transactions mean higher gas fees and complexity
+* **Capital-inefficient**, locking up additional assets with each loop
+* **Gas-intensive** and requires manual, error-prone steps
 
-Mars Protocol improves this process through:
+Mars Protocol introduces a superior model:
 
-* One-Click Leverage: Execute margin trades in a single transaction
-* Capital Efficient Credit Accounts: All assets serve as cross-collateral
-* Seamless Integration: No need to juggle between multiple protocols or understand complex looping strategies
+#### Capital Efficiency & UX Advantages
 
-## **Understanding Leverage Risk**&#x20;
+* **One-Click Leverage**\
+  Margin trades are executed in a **single transaction**, with collateral, borrowing, and swapping handled atomically.
+* **Unified Credit Accounts**\
+  All assets deposited into a Credit Account act as **cross-collateral**, maximizing margin availability without requiring asset segregation.
+* **Seamless Protocol Integration**\
+  No interaction with multiple contracts or external protocols is needed. Users engage in leveraged trading directly within the Mars interface.
 
-Trading on leverage comes with significant risks that users must understand:
+***
 
-**Liquidation Risk**
+### Understanding Leverage Risk
 
-* When you trade on margin, your position is at risk of liquidation if your account health factor drops to 1 or below
-* This typically happens when the value of your collateral decreases relative to your debt
-* Mars provides an estimated liquidation price for each position to help you manage risk
+While margin trading offers significant upside, it also introduces **elevated risk**, particularly **liquidation risk**.
 
-**Liquidation Price Dynamics**
+#### Liquidation Risk
 
-* For simple accounts with a single leveraged position and stablecoin debt, the shown liquidation price is generally accurate
-* However, liquidation prices can fluctuate based on:
-  * Multiple positions in the account
-  * Non-stable debt (volatile assets)
-  * Changes in other asset prices within the account
+If the value of your collateral falls too far relative to your borrowed position, your Credit Account can be **liquidated**:
 
-It's crucial to monitor your account health regularly when trading on leverage and maintain adequate safety margins.
+* Liquidation is triggered when the **health factor** of the account falls to **1.0 or below**.
+* Mars Protocol provides an **estimated liquidation price** for each position, helping users manage risk proactively.
+
+#### Liquidation Price Dynamics
+
+In simple accounts (e.g., one leveraged position, stablecoin debt), the **liquidation price estimate is reliable**.
+
+However, liquidation prices can become more dynamic under the following conditions:
+
+* The account holds **multiple positions**
+* The borrowed asset is **volatile**, not a stablecoin
+* Other **collateral or debt assets** fluctuate significantly in price
+
+In these scenarios, small market movements can shift liquidation thresholds unpredictably. Thus, **regular monitoring of account health** and conservative leverage are strongly advised.
+
+***
+
+### Summary
+
+| Feature        | Spot Trading            | Margin Trading                               |
+| -------------- | ----------------------- | -------------------------------------------- |
+| Feature        | <kbd>Spot Trading</kbd> | Margin Trading                               |
+| **Execution**  | Swap at market price    | One-click margin execution                   |
+| **Risk**       | None (self-funded)      | Subject to liquidation                       |
+| **Use Case**   | Simple asset exchange   | Amplified exposure via borrowed funds        |
+| **Collateral** | Funds in Credit Account | All whitelisted assets in the Credit Account |
+
+***
+
+**Spot and Margin Trading on Mars Protocol** are unified through a capital-efficient, user-friendly framework that simplifies DeFi trading while expanding access to advanced strategies—without compromising transparency or risk controls.
 
 ### Tutorial
 
