@@ -4,11 +4,11 @@ description: >-
   to get creative with Mars and its branding.
 ---
 
-# Brand info
+# The Mars Brand
 
 All Mars Protocol assets are available under a Creative Commons Attribution-ShareAlike 4.0 International License. Check out all the details below, or dive into our [brand book](https://www.figma.com/community/file/1087694153191955817) and [graphics files](https://drive.google.com/drive/folders/17NKP9vAdTfAY5ULGSh2T7EKZUQqnFjrt) now. Together, we’ll build the galaxy’s most powerful credit protocol.
 
-### Mars Brand Policy[​](https://docs.marsprotocol.io/docs/overview/brand-kit#mars-brand-policy) <a href="#mars-brand-policy" id="mars-brand-policy"></a>
+## Mars Brand Policy[​](https://docs.marsprotocol.io/docs/overview/brand-kit#mars-brand-policy) <a href="#mars-brand-policy" id="mars-brand-policy"></a>
 
 <figure><img src="https://docs.marsprotocol.io/assets/images/brand-kit-1-48834fbce6b7497c5451c06488bfe1da.png" alt=""><figcaption></figcaption></figure>
 
