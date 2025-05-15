@@ -1,34 +1,64 @@
+---
+description: Step-by-step guide on how to create a wallet
+---
+
 # How to set up a Wallet
 
-### Introduction
+## Introduction
 
-Welcome to the wallet setup guide! Since this is a Cosmos-based app, traditional EVM wallets (like MetaMask out of the box) are **not compatible**. Instead, you’ll need a Cosmos-compatible wallet. In this guide, we’ll focus on creating a new **Keplr** wallet from scratch. Keplr is a popular browser extension wallet for Cosmos networks and offers seamless integration with our app. By the end of these steps, you’ll have a Keplr wallet ready to connect.
+Welcome to the wallet setup guide! Since the Mars Protocol is a Cosmos-based app, you’ll need a Cosmos-compatible wallet. In this guide, we’ll focus on creating a new wallet from scratch.
 
-If you prefer another Cosmos wallet, the general process is similar. Other supported options include:
+Some supported options include:
 
-* [**Leap**](https://www.leapwallet.io/)
-* [**Cosmostation**](https://cosmostation.io/products/cosmostation_extension)
-* [**MetaMask**](https://snaps.metamask.io/snap/npm/leapwallet/metamask-cosmos-snap/) (via the Leap Cosmos Snap integration)
+* <img src="../.gitbook/assets/image (5).png" alt="" data-size="line"> [**Keplr**](https://www.keplr.app/)
+* <img src="../.gitbook/assets/Icon _ Transparent.svg" alt="" data-size="line"> [**Leap**](https://www.leapwallet.io/)
+* <img src="../.gitbook/assets/App Icon White.png" alt="" data-size="line"> [**Ctrl**](https://ctrl.xyz/)
+* <img src="../.gitbook/assets/cosmostation-symbol.png" alt="" data-size="line"> [**Cosmostation**](https://cosmostation.io/products/cosmostation_extension)
+* <img src="../.gitbook/assets/MetaMask-icon-fox-with-margins.svg" alt="" data-size="line"> [**MetaMask**](https://snaps.metamask.io/snap/npm/leapwallet/metamask-cosmos-snap/) (via the Leap Cosmos Snap integration)
 
-### Install the Keplr Browser Extension
+***
 
-1. **Open the Extension Store**
-   * In Chrome or Brave, go to the [Chrome Web Store](https://chrome.google.com/webstore) and search for **“Keplr Wallet”**.
-   * In Edge, enable “Allow extensions from other stores” in Settings, then visit the Chrome Web Store page for Keplr.
-2. **Add to Browser**
-   * Click **“Add to Chrome”** (or equivalent) and confirm any prompts.
-3. **Verify Installation**
-   * You should see the Keplr icon (a purple-blue “K”) in your extensions area.
+## 1. Install a Wallet Extension
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="Screenshot: Keplr extension’s Chrome Web Store page with the “Add to Chrome” button."><figcaption><p><em>(Keplr extension’s Chrome Web Store page with the <strong>“Add to Chrome”</strong> button.)</em></p></figcaption></figure>
+* **Open the Extension Store**
+  * In Chrome or Brave, go to the [Chrome Web Store](https://chrome.google.com/webstore) (or Brave Extension Store) and search for your chosen wallet (e.g., “Keplr Wallet”).
+  * In Edge, enable **Allow extensions from other stores** in Settings, then visit the Chrome Web Store page for your wallet.
+* **Add to Browser**
+  * Click **“Add to Chrome”** (or equivalent) and confirm any prompts.
+* **Verify Installation**
+  * You should see the wallet’s icon in your browser’s extensions area.
 
+***
 
+## 2. Open the Wallet Extension and Create a New Wallet
 
+* **Launch the Extension**
+  * Click the puzzle-piece (🧩) icon in your toolbar, then select your wallet.
+* **Choose a Setup Option**
+  * **Create a new wallet** (via Recovery Phrase or Google account)
+  * **Import an existing wallet** (via Recovery Phrase, Private Key, or Google account)
+  * **Connect a hardware wallet** (Ledger or Keystone)
+* **Select “Create New Wallet”**
+  * Choose **Create new wallet**, then **Create new recovery phrase** to generate a brand-new Secret Recovery Phrase.
 
+***
 
+## 3. Back Up Your Secret Recovery Phrase
 
+* **Reveal the Phrase**
+  * Click **Show my phrase** to display your 12 (or 24) secret words.
+* **Store It Securely**
+  * **Write down** every word in order on paper or another secure offline medium.
+  * **Do NOT share** this phrase—anyone with it can access your funds.
+* **Confirm the Phrase**
+  * Click **Next**, then re-enter or re-select the words in the correct order to verify your backup.
 
+***
 
+### Next Steps
+
+You’re all set! Your new Cosmos-compatible wallet is ready.\
+➡️ Now proceed to our [**Connect your wallet**](connect-your-wallet.md) guide
 
 
 
