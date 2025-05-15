@@ -33,3 +33,4 @@
   * [Swapper](smart-contracts/swapper.md)
   * [Zapper](smart-contracts/zapper.md)
   * [Perps](smart-contracts/perps.md)
+* [Brand assets](brand-assets.md)
