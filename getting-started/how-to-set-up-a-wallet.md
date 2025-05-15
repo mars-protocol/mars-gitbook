@@ -6,7 +6,7 @@ description: Step-by-step guide on how to create a wallet
 
 ## Introduction
 
-Welcome to the wallet setup guide! Since the Mars Protocol is a Cosmos-based app, you’ll need a Cosmos-compatible wallet. In this guide, we’ll focus on creating a new wallet from scratch.
+Since the Mars Protocol is a Cosmos-based app, users need a Cosmos-compatible wallet. In this guide, we’ll focus on creating a new wallet from scratch.
 
 Some supported options include:
 
@@ -57,8 +57,8 @@ Some supported options include:
 
 ### Next Steps
 
-You’re all set! Your new Cosmos-compatible wallet is ready.\
-Now proceed to our [**Connect your wallet**](connect-your-wallet.md) guide
+Your new Cosmos-compatible wallet is ready.\
+Now proceed to our [**Connect your wallet**](connect-your-wallet.md) guide:
 
 {% content-ref url="connect-your-wallet.md" %}
 [connect-your-wallet.md](connect-your-wallet.md)
