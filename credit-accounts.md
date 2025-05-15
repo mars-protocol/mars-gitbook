@@ -93,5 +93,5 @@ The difference between MaxLTV and LiqLTV creates a safety margin, allowing for s
 
 ### Tutorial
 
-* [Mars Credit Accounts](https://www.youtube.com/watch?v=vyPLJWzRs80)
+{% embed url="https://www.youtube.com/watch?v=vyPLJWzRs80" %}
 
