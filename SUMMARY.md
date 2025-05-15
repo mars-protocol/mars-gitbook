@@ -8,7 +8,7 @@
 * [Credit Accounts](credit-accounts.md)
 * [Perpetual Futures (Perps)](perpetual-futures-perps/README.md)
   * [Perps Vault (Counterparty Vault)](perpetual-futures-perps/perps-vault-counterparty-vault.md)
-  * [How to open a Perps Position](perpetual-futures-perps/how-to-open-a-perps-position.md)
+  * [Opening a Perps Position](perpetual-futures-perps/opening-a-perps-position.md)
 * [Spot & Margin Trading](spot-and-margin-trading.md)
 * [Lending & Borrowing](lending-and-borrowing.md)
 * [Leveraged Yield Farming](leveraged-yield-farming.md)
