@@ -14,6 +14,7 @@
   * [Entering an HLS Position](high-leverage-strategies/entering-an-hls-position.md)
 * [Managed Vaults](managed-vaults/README.md)
   * [Creating & Managing a Vault](managed-vaults/creating-and-managing-a-vault.md)
+  * [Depositing into a Managed Vault](managed-vaults/depositing-into-a-managed-vault.md)
 * [Risk Methodology](risk-methodology.md)
 * [Governance](governance.md)
   * [MARS Token](governance/mars-token.md)
