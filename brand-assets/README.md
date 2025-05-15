@@ -8,7 +8,7 @@ description: Mars Protocol Brand Assets and Backgrounds.
 
 ### Mars
 
-<div align="left"><figure><img src=".gitbook/assets/mars.svg" alt="" width="113"><figcaption><p>Mars Logo</p></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/mars.svg" alt="" width="113"><figcaption><p>Mars Logo</p></figcaption></figure></div>
 
 Download
 
@@ -19,7 +19,7 @@ Download
 
 ### Grid
 
-<div align="left"><figure><img src=".gitbook/assets/mars-grid-preview.svg" alt="" width="128"><figcaption><p>Mars Grid Logo</p></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/mars-grid-preview.svg" alt="" width="128"><figcaption><p>Mars Grid Logo</p></figcaption></figure></div>
 
 Download
 
@@ -32,7 +32,7 @@ Download
 
 ### Mars
 
-<figure><img src=".gitbook/assets/mars-protocol-1920x1080.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/mars-protocol-1920x1080.png" alt=""><figcaption></figcaption></figure>
 
 Download&#x20;
 
@@ -43,7 +43,7 @@ Download&#x20;
 
 ***
 
-<figure><img src=".gitbook/assets/mars-protocol-clean-1920x1080.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/mars-protocol-clean-1920x1080.png" alt=""><figcaption></figcaption></figure>
 
 Download&#x20;
 
@@ -54,7 +54,7 @@ Download&#x20;
 
 ### Grid
 
-<figure><img src=".gitbook/assets/mars-protocol-grid-1920x1080.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/mars-protocol-grid-1920x1080.png" alt=""><figcaption></figcaption></figure>
 
 Download&#x20;
 
@@ -65,7 +65,7 @@ Download&#x20;
 
 ### Grid Clean
 
-<figure><img src=".gitbook/assets/mars-protocol-grid-clean-1920x1080.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/mars-protocol-grid-clean-1920x1080.png" alt=""><figcaption></figcaption></figure>
 
 Download&#x20;
 
