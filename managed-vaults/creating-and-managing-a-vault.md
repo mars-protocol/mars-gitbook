@@ -86,7 +86,8 @@ Here are the key elements you'll find on the vault dashboard:
 * **Vault Summary (left panel)**\
   Shows your vault’s title, description, APY, total value locked (TVL), performance fee %, and the withdrawal freeze period. It also includes your Stargaze-linked identity (if connected).
 * **Performance Fee Panel (top panel)**\
-  Displays how much in fees you’ve earned. You can only claim performance fees once per month -typically during the claim window. A claim button will appear when available.
+  Displays how much in fees you’ve earned. You can only claim performance fees once per month -typically during the claim window. A claim button will appear when available.                                         ⚠️ **Note:**\
+  The displayed fee amount is based on the vault’s accrued PnL, but this value only updates when someone deposits into or withdraws from the vault. If there’s no user activity, the fee may appear outdated even if your positions have changed in value.
 * **Deposit / Unlock Buttons**\
   You can deposit additional funds into your own vault or unlock funds if you’ve previously deposited and requested withdrawal.
 *   **Withdrawal Summary Tab**\
