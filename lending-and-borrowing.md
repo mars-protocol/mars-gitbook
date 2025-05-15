@@ -24,7 +24,7 @@ The model defines two distinct utilization zones:
 * **Slope 2: Optimal Utilization to 100%**
   * Interest rates increase **steeply** to discourage further borrowing as liquidity becomes constrained.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-12-17 at 7.35.31 PM.png" alt=""><figcaption></figcaption></figure>
+<div data-full-width="false"><figure><img src=".gitbook/assets/Screenshot 2024-12-17 at 7.35.31 PM.png" alt=""><figcaption></figcaption></figure></div>
 
 | Rate Component    | Description                                                                                    |
 | ----------------- | ---------------------------------------------------------------------------------------------- |
