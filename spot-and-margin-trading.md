@@ -50,14 +50,7 @@ Trading on leverage comes with significant risks that users must understand:
 
 It's crucial to monitor your account health regularly when trading on leverage and maintain adequate safety margins.
 
-## **Video Tutorials**&#x20;
+### Tutorial
 
-For detailed walkthroughs of spot and margin trading on Mars, check out these tutorials:
+* [Spot and Margin Trading](https://www.youtube.com/watch?v=hI6CLS3lTTE)
 
-1. Spot Trading Basics
-   * How to execute a spot trade
-   * Using the Account Composition window
-   * Managing trade settings
-2. Margin Trading Guide
-   * Setting up a leveraged trade
-   * Monitoring account health & liquidation risk
