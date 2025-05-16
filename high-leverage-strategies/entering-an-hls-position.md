@@ -1,2 +1,0 @@
-# Entering an HLS Position
-

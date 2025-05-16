@@ -90,6 +90,6 @@ Interested in opening an HLS Credit Account?
 
 If market conditions are favorable (i.e., **borrow APY < staking APY**), you may consider opening a position using the **looping strategy**.
 
-{% content-ref url="entering-an-hls-position.md" %}
-[entering-an-hls-position.md](entering-an-hls-position.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
