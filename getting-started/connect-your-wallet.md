@@ -12,7 +12,7 @@ Follow these steps to connect your wallet to the Mars Protocol app.
 
 ### 1. Visit the App & Click “Connect Wallet”
 
-* Open your browser and go to: **https://app.marsprotocol.io**
+* Open your browser and go to: [app.marsprotocol.io](https://app.marsprotocol.io/)
 * In the top-right corner, click **Connect Wallet**.
 
 <figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p><em>Mars Protocol toolbar with “Connect Wallet” button on the right.</em></p></figcaption></figure>
