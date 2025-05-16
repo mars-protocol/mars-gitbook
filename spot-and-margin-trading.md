@@ -14,7 +14,7 @@ These functions are unified within the **Credit Account system**, allowing users
 
 **Spot Trading** on Mars refers to the **direct exchange of one asset for another** using the funds already available in a user's Credit Account. It does not involve leverage, borrowing, or margin mechanics.
 
-* Users simply **swap** an asset (e.g., USDC for TIA) at the current market rate.
+* Users simply **swap** an asset (e.g., USDC for ATOM) at the current market rate.
 * All trades are executed through **integrated decentralized exchanges (DEXs)**.
 * No risk of liquidation exists, as the trade only involves assets the user already owns.
 
@@ -28,7 +28,7 @@ This mechanism mirrors conventional DEX trading but benefits from Mars’ **unif
 
 For example:
 
-* A user with **100 USDC** in their Credit Account may open a **500 USDC** position on TIA by borrowing **400 USDC**.
+* A user with **100 USDC** in their Credit Account may open a **500 USDC** position on ATOM by borrowing **400 USDC**.
 * This leveraged exposure amplifies both **potential profits** and **potential losses**.
 
 ***
