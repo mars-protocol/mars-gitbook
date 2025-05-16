@@ -16,14 +16,14 @@ Each Managed Vault is built on a **Credit Account**, giving the manager access t
 
 Managed Vaults are designed to combine **capital efficiency**, **decentralized strategy deployment**, and **user safety**. Core features include:
 
-* **Fungible LP Shares:**\
-  Users who deposit into a vault receive **fungible vault shares**, which represent their proportional claim on the vault’s assets and performance.
 * **Vault Manager Access:**\
   Managers interact with the Mars **trading interface** to execute trades and manage leveraged positions via the Credit Account.
 * **No Manager Withdrawals:**\
   Managers are **restricted from  withdrawing** from the vault directly. This guarantees that only users control capital outflow.
+* **Fungible LP Shares:**\
+  Users who deposit into a vault receive **fungible vault shares**, which represent their proportional claim on the vault’s assets and performance.
 * **Automated Liquidity Handling:**\
-  If users request withdrawals and the vault lacks sufficient **USDC** liquidity, the system will **automatically borrow USDC** from the Red Bank to fulfill the request, maintaining usability and minimizing friction.
+  If users request withdrawals and the vault lacks sufficient **asset** (e.g. USDC) liquidity, the system will **automatically borrow the asset** (e.g. USDC) from the Red Bank to fulfill the request, maintaining usability and minimizing friction.
 
 ***
 
@@ -34,7 +34,7 @@ Managed Vaults incorporate configurable parameters to balance flexibility with c
 #### Performance Fee
 
 * Managers can **claim fees monthly**, aligned with protocol governance standards.
-* Performance fee rates are **adjustable**, but only during the monthly withdrawal window to ensure transparency and user trust.
+* Performance fee rates are **adjustable**, but only during the monthly withdrawal window to ensure **transparency** and user trust.
 
 #### Withdrawal Period
 
@@ -49,10 +49,10 @@ Mars Protocol introduces mechanisms to ensure vaults remain responsive to user a
 
 * **Withdrawal Scheduling:**\
   The user interface clearly communicates the **upcoming withdrawal window**, allowing users and managers to plan accordingly.
-* **USDC Liquidity Preparation:**\
-  Vault managers can proactively prepare **USDC liquidity** before scheduled withdrawals to avoid slippage or forced borrowing.
+* **Asset Liquidity Preparation:**\
+  Vault managers can proactively prepare **asset liquidity** before scheduled withdrawals to avoid slippage or forced borrowing.
 * **Automated Borrowing Backup:**\
-  If a vault is underprepared, Mars will **automatically borrow USDC** from the Red Bank to fulfill withdrawals. This ensures **withdrawal reliability** without compromising the strategy.
+  If a vault is underprepared, Mars will **automatically borrow the base asset** from the Red Bank to fulfill withdrawals. This ensures **withdrawal reliability** without compromising the strategy.
 
 ***
 
