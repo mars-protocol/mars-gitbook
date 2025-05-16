@@ -8,9 +8,9 @@ description: >-
 
 These strategies rely on strict collateral-debt pairings of **highly correlated assets**, such as **liquid staking tokens (LSTs)** and their **underlying base assets** (e.g., dATOM and ATOM).
 
-By utilizing asset pairs with strong price correlation, HLS Accounts allow for **higher leverage ratios** compared to standard Credit Accounts—while preserving overall protocol stability.
+By utilizing asset pairs with strong price correlation, HLS Accounts allow for **higher leverage ratios** compared to standard Credit Accounts - while preserving overall protocol stability.
 
-***
+<figure><img src=".gitbook/assets/mars_hls.png" alt=""><figcaption></figcaption></figure>
 
 Unlike standard Credit Accounts, **HLS Accounts** are **limited to borrowing only highly correlated assets**. Upon depositing a collateral asset into an HLS Credit Account, only a small, predefined set of matching assets can be borrowed. This restriction is based on the assumption that these assets **move in price together**, reducing systemic risk.
 
@@ -81,15 +81,3 @@ LSDs depend on accurate redemption rates from providers (e.g., Stride, Drop). Fa
 #### 3. **Volatile Borrow Rates**
 
 Borrow APYs are dynamic and can spike unexpectedly. An HLS position must be **actively monitored**, and is not suited for passive investment styles.
-
-***
-
-### Getting Started with HLS
-
-Interested in opening an HLS Credit Account?
-
-If market conditions are favorable (i.e., **borrow APY < staking APY**), you may consider opening a position using the **looping strategy**.
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
