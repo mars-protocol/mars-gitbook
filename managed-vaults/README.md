@@ -21,7 +21,7 @@ Managed Vaults are designed to combine **capital efficiency**, **decentralized s
 * **Vault Manager Access:**\
   Managers interact with the Mars **trading interface** to execute trades and manage leveraged positions via the Credit Account.
 * **No Manager Withdrawals:**\
-  Managers are **restricted from depositing or withdrawing** from the vault directly. This guarantees that only users control capital inflow and outflow.
+  Managers are **restricted from  withdrawing** from the vault directly. This guarantees that only users control capital outflow.
 * **Automated Liquidity Handling:**\
   If users request withdrawals and the vault lacks sufficient **USDC** liquidity, the system will **automatically borrow USDC** from the Red Bank to fulfill the request, maintaining usability and minimizing friction.
 
@@ -33,7 +33,6 @@ Managed Vaults incorporate configurable parameters to balance flexibility with c
 
 #### Performance Fee
 
-* Accrues **daily** based on the vault’s performance.
 * Managers can **claim fees monthly**, aligned with protocol governance standards.
 * Performance fee rates are **adjustable**, but only during the monthly withdrawal window to ensure transparency and user trust.
 
@@ -61,14 +60,21 @@ Mars Protocol introduces mechanisms to ensure vaults remain responsive to user a
 
 To support users and prospective vault managers, Mars Protocol provides comprehensive tutorials:
 
-* **Creating & Managing a Vault**\
-  A guide for traders or strategy designers on how to configure, launch, and responsibly manage a vault.
+* **Creating a Vault**\
+  A guide for traders or strategy designers on how to configure and launch a vault.
 
 {% content-ref url="creating-a-vault.md" %}
 [creating-a-vault.md](creating-a-vault.md)
 {% endcontent-ref %}
 
-* **Depositing into a Managed Vault**\
+* **Managing a Vault**\
+  A guide for traders or strategy designers on how to responsibly manage a vault.
+
+{% content-ref url="managing-a-vault.md" %}
+[managing-a-vault.md](managing-a-vault.md)
+{% endcontent-ref %}
+
+* **Depositing into Vault**\
   Step-by-step instructions for users to evaluate, select, and deposit into a community vault.
 
 {% content-ref url="depositing-into-vault.md" %}
