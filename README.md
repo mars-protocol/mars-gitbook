@@ -8,9 +8,9 @@ description: >-
 
 The Mars Protocol empowers users with sophisticated trading tools and yield opportunities while maintaining a balanced ecosystem for both **risk-takers** and **risk-reducers**.
 
-<div data-full-width="false"><figure><img src=".gitbook/assets/banner.png" alt=""><figcaption><p>Welcome to Mars Protocol</p></figcaption></figure></div>
-
 ## What is Mars Protocol?
+
+<figure><img src=".gitbook/assets/banner.png" alt=""><figcaption><p>Welcome to Mars Protocol</p></figcaption></figure>
 
 Mars Protocol is a **Gen3 DeFi leverage protocol** that introduces **Credit Accounts** - an all-in-one position management primitive enabling leveraged trading across a wide array of strategies and assets.
 
