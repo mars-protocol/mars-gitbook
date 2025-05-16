@@ -24,7 +24,7 @@ If you don’t yet have a Credit Account, you’ll be taken straight to the **Cr
   * Click **Select Assets +** to open the asset selector.
   * Whitelisted collateral appears at the top and non-whitelisted assets appear below (see the [Lending & Borrowing](../lending-and-borrowing.md) page).
 
-<div data-full-width="false"><figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption><p>Asset selector modal</p></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/mars_asset_select_modal.png" alt=""><figcaption><p>Asset selector modal</p></figcaption></figure>
 
 * **Choose deposit amounts** and click **Fund Account**.
   * After confirming the on-chain transaction, you’ll be redirected back to the app and see your new Credit Account in the navbar:
