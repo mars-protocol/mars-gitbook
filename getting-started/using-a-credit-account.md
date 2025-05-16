@@ -5,7 +5,7 @@ description: >-
   your first Credit Account.
 ---
 
-# Creating a Credit Account
+# Using a Credit Account
 
 Introduction
 
@@ -13,7 +13,7 @@ In order to interact with Mars Protocol V2 and access all features (see [Credit 
 
 ***
 
-### 1. Create & Fund an Account
+## 1. Create & Fund an Account
 
 If you don’t yet have a Credit Account, you’ll be taken straight to the **Create and Fund a Credit Account** page:
 
@@ -36,7 +36,7 @@ If you don’t yet have a Credit Account, you’ll be taken straight to the **Cr
 To open more than one Credit Account:
 
 1. Click the **Credit Account** dropdown in the navbar.
-2. Click **Create +** and you will be forwarded to the [Create & Fund](creating-a-credit-account.md#id-1.-create-and-fund-an-account) page.
+2. Click **Create +** and you will be forwarded to the [Create & Fund](using-a-credit-account.md#id-1.-create-and-fund-an-account) page.
 
 ***
 

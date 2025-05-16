@@ -12,8 +12,8 @@ For a step-by-step guide on how to get started, check out these helpful tutorial
 [connect-your-wallet.md](connect-your-wallet.md)
 {% endcontent-ref %}
 
-{% content-ref url="creating-a-credit-account.md" %}
-[creating-a-credit-account.md](creating-a-credit-account.md)
+{% content-ref url="using-a-credit-account.md" %}
+[using-a-credit-account.md](using-a-credit-account.md)
 {% endcontent-ref %}
 
 These tutorials will guide you through the process of setting up your wallet, acquiring USDC, and creating your Credit Account at Mars Protocol.

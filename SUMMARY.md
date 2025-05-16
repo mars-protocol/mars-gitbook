@@ -4,7 +4,7 @@
 * [Getting Started](getting-started/README.md)
   * [How to set up a Wallet](getting-started/how-to-set-up-a-wallet.md)
   * [Connect your wallet](getting-started/connect-your-wallet.md)
-  * [Creating a Credit Account](getting-started/creating-a-credit-account.md)
+  * [Using a Credit Account](getting-started/using-a-credit-account.md)
 * [Credit Accounts](credit-accounts.md)
 * [Perpetual Futures (Perps)](perpetual-futures-perps/README.md)
   * [Perps Vault (Counterparty Vault)](perpetual-futures-perps/perps-vault-counterparty-vault.md)

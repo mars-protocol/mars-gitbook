@@ -42,8 +42,8 @@ Follow these steps to connect your wallet to the Mars Protocol app.
 
 You’ve successfully connected your wallet! \
 \
-Next, head over to the [**Create a Credit Account**](creating-a-credit-account.md) page to begin depositing and managing assets.
+Next, head over to the [**Create a Credit Account**](using-a-credit-account.md) page to begin depositing and managing assets.
 
-{% content-ref url="creating-a-credit-account.md" %}
-[creating-a-credit-account.md](creating-a-credit-account.md)
+{% content-ref url="using-a-credit-account.md" %}
+[using-a-credit-account.md](using-a-credit-account.md)
 {% endcontent-ref %}
