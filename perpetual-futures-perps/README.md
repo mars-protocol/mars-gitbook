@@ -10,7 +10,7 @@ This architecture enables cross-margined and cross-collateralized leveraged trad
 
 Unlike traditional orderbook-based systems, Mars executes perp trades at real-time **oracle prices**, ensuring deep liquidity access and deterministic execution - making it especially suitable for capital-efficient DeFi trading.
 
-***
+<figure><img src="../.gitbook/assets/mars_perps.png" alt=""><figcaption></figcaption></figure>
 
 ### Key Mechanics
 
