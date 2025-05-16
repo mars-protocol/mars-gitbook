@@ -1,5 +1,11 @@
 # Depositing into Vault
 
+Managed Vaults on Mars Protocol allow you to passively participate in a trading strategy run by a vault manager. In return for your deposit, you receive vault shares that represent your portion of the vault and its performance over time.
+
+This guide walks you through what to check before depositing, how it works, and what to expect after you've entered a vault.
+
+
+
 ### Finding a Vault&#x20;
 
 All available vaults are listed in a **sortable table** on the main **Vaults page**.
@@ -112,82 +118,3 @@ From here, you can monitor your vault performance, initiate withdrawals, or expl
 
 
 
-Managed Vaults on Mars Protocol allow you to passively participate in a trading strategy run by a vault manager. In return for your deposit, you receive vault shares that represent your portion of the vault and its performance over time.
-
-This guide walks you through what to check before depositing, how it works, and what to expect after you've entered a vault.
-
-
-
-### Finding a Vault
-
-All available vaults are listed in a **sortable table** on the main **Vaults page**.
-
-Each row displays:
-
-* **Vault Title** – The custom name set by the manager
-* **Manager Identity** – Either a profile name (if set via Stargaze) or a shortened address
-* **TVL** – Total value locked in the vault
-* **APY** – Current annualized return (based on vault performance)
-* **Fee** – The performance fee charged by the manager
-* **Vault Info** – A button to inspect the vault in detail
-
-> You can **sort** the list by TVL, APY, or fee to find vaults that match your risk appetite or yield target.
-
-Click the **Vault Info** button to view full details, including strategy, past performance, and deposit options.
-
-
-
-### Inspecting a Vault
-
-Before depositing, you should always review the vault’s:
-
-* **Strategy description** – Understand what the manager is doing with your funds.
-* **Health & Position Metrics** – Includes leverage, risk level, open positions, and exposure.
-* **Performance tab** – Shows historical data such as:
-  * Vault balance
-  * Share price evolution
-  * Historical APY
-  * Vault age
-  * Max 90-day drawdown - largest value drop over any 90-day period
-  * Total PnL - total profit or loss generated since vault inception
-
-> ⚠️ **Tip:** Vault managers may take a **performance fee**, which is a cut of the profits they generate. You can see the fee percentage on the vault’s summary panel.
-
-
-
-### DYOR (Do Your Own Research)
-
-Always make informed decisions. Take time to:
-
-* Understand the strategy
-* Review the manager’s trading history and transparency
-* Check vault risk metrics
-* Consider the withdrawal freeze period (lockup time)
-
-
-
-### Depositing Funds
-
-When you're ready to deposit:
-
-* Funds are pulled **directly from your connected wallet**
-* Your **Credit Account is not involved**
-* In return, you receive **vault shares**, which are:
-  * Proportional to your deposit
-  * **Transferable**
-  * Redeemable later for the base asset
-
-
-
-### Withdrawing Funds
-
-To exit a vault:
-
-1. Click **Unlock** to start the withdrawal timer
-2. After the **freeze period ends**, you can click **Withdraw**
-
-> If you have **multiple unlocked positions**, clicking **Withdraw** will process **all of them in a single transaction**.
-
-
-
-### My Vault&#x20;
