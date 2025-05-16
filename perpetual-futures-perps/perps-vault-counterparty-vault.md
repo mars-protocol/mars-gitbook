@@ -8,7 +8,7 @@ description: >-
 
 It plays a critical role in ensuring reliable **USDC-based settlement**, effective risk management, and long-term system sustainability.
 
-***
+<figure><img src="../.gitbook/assets/mars_counter_party_vault.png" alt=""><figcaption></figcaption></figure>
 
 ### Core Function
 
