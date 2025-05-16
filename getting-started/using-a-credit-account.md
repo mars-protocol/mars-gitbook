@@ -17,7 +17,7 @@ In order to interact with Mars Protocol V2 and access all features (see [Credit 
 
 If you don’t yet have a Credit Account, you’ll be taken straight to the **Create and Fund a Credit Account** page:
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p>Create and Fund a Credit Account</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/mars_create_credit_account.png" alt=""><figcaption><p>Create and Fund a Credit Account</p></figcaption></figure>
 
 * **Optionally connect an EVM wallet** to deposit USDC from an Ethereum or L2 chain
 * **Select your collateral assets**
