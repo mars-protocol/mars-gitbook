@@ -64,15 +64,15 @@ To support users and prospective vault managers, Mars Protocol provides comprehe
 * **Creating & Managing a Vault**\
   A guide for traders or strategy designers on how to configure, launch, and responsibly manage a vault.
 
-{% content-ref url="creating-and-managing-a-vault.md" %}
-[creating-and-managing-a-vault.md](creating-and-managing-a-vault.md)
+{% content-ref url="creating-a-vault.md" %}
+[creating-a-vault.md](creating-a-vault.md)
 {% endcontent-ref %}
 
 * **Depositing into a Managed Vault**\
   Step-by-step instructions for users to evaluate, select, and deposit into a community vault.
 
-{% content-ref url="depositing-into-a-managed-vault.md" %}
-[depositing-into-a-managed-vault.md](depositing-into-a-managed-vault.md)
+{% content-ref url="depositing-into-vault.md" %}
+[depositing-into-vault.md](depositing-into-vault.md)
 {% endcontent-ref %}
 
 ***
