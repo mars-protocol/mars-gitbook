@@ -8,7 +8,7 @@ description: >-
 
 The Mars Protocol empowers users with sophisticated trading tools and yield opportunities while maintaining a balanced ecosystem for both **risk-takers** and **risk-reducers**.
 
-<div data-full-width="true"><figure><img src=".gitbook/assets/banner.png" alt=""><figcaption><p>Welcome to Mars Protocol</p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src=".gitbook/assets/banner.png" alt=""><figcaption><p>Welcome to Mars Protocol</p></figcaption></figure></div>
 
 ## What is Mars Protocol?
 
