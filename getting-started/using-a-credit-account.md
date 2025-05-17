@@ -64,10 +64,10 @@ Once you have one or more Credit Accounts, you can **Fund**, **Withdraw**, or **
 ### 3.3 Delete a Credit Account
 
 * Open the **Credit Account** dropdown and click **Delete**.
+
+<figure><img src="../.gitbook/assets/mars_repay_before_delete.png" alt=""><figcaption></figcaption></figure>
+
 * If you have outstanding debt or open Perps positions, you’ll first see a **Repay Debts** prompt:
-
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
-
 * Once clear, you’ll see your remaining assets summary, click **Delete Account** to withdraw them back to your wallet and close the account:
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/mars_delete_account.png" alt=""><figcaption></figcaption></figure>
