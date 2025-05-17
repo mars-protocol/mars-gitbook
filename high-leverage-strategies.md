@@ -51,7 +51,7 @@ The APYs are the current APYs at the time of writing and will be different at th
 #### High Leverage Strategy (HLS)
 
 1. Deposit **$100 of dATOM** as collateral.
-2. Borrow **$600 of ATOM** (6× leverage).
+2. Borrow **$600 of ATOM** (leverage: 7x).
 3. Swap to **dATOM** (assuming a 1% slippage on the swap = $6 loss).
 4. User now holds **$694 of dATOM**.
 
