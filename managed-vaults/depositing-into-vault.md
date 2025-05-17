@@ -4,7 +4,7 @@ Managed Vaults on Mars Protocol allow you to passively participate in a trading 
 
 This guide walks you through what to check before depositing, how it works, and what to expect after you've entered a vault.
 
-
+***
 
 ### Finding a Vault&#x20;
 
@@ -25,7 +25,7 @@ Each row displays:
 
 Click the **Vault Info** button to view full details, including strategy, past performance, and deposit options.
 
-
+***
 
 ### Inspecting a Vault
 
@@ -41,9 +41,9 @@ Before depositing, you should always review the vault’s:
   * Max 90-day drawdown - largest value drop over any 90-day period
   * Total PnL - total profit or loss generated since vault inception
 
-> ⚠️ Not&#x65;**:** Vault managers take a **performance fee**, which is a cut of the profits they generate. You can see the fee percentage on the vault’s summary panel.
+> **Note:** Vault managers take a **performance fee**, which is a cut of the profits they generate. You can see the fee percentage on the vault’s summary panel.
 
-
+***
 
 ### DYOR (Do Your Own Research)
 
@@ -54,7 +54,7 @@ Always make informed decisions. Take time to:
 * Check vault risk metrics
 * Consider the withdrawal freeze period (lockup time)
 
-
+***
 
 ### Depositing Funds
 
@@ -67,7 +67,7 @@ When you're ready to deposit:
   * **Transferable**
   * Redeemable later for the base asset
 
-
+***
 
 ### Withdrawing Funds
 
@@ -78,7 +78,7 @@ To exit a vault:
 
 > If you have **multiple unlocked positions**, clicking **Withdraw** will process **all of them in a single transaction**.
 
-
+***
 
 ### My Vault Position
 
@@ -108,7 +108,7 @@ Here’s what you’ll see:
 > Keep an eye on the vault’s strategy, positions, and risk metrics — especially if market conditions change.\
 > While vault managers trade on your behalf, you should stay informed and reassess your deposit if needed.
 
-
+***
 
 ### My Deposits
 

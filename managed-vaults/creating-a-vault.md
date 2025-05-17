@@ -1,6 +1,12 @@
+---
+description: >-
+  Managed Vaults on Mars Protocol enable users to deploy trading strategies on
+  behalf of depositors.
+---
+
 # Creating a Vault
 
-Managed Vaults on Mars Protocol enable users to deploy trading strategies on behalf of depositors. As a vault manager, you can execute trades using your vault’s account, but you **cannot withdraw or transfer** deposited assets directly.\
+As a vault manager, you can execute trades using your vault’s account, but you **cannot withdraw or transfer** deposited assets directly.\
 In return for managing the strategy, you earn a **performance fee** — a percentage of the vault's profit, that is claimable monthly.
 
 This guide walks you through the steps to create and manage a Vault using the Mars App interface. You’ll learn how to:
@@ -9,14 +15,14 @@ This guide walks you through the steps to create and manage a Vault using the Ma
 * Optionally seed your vault with an initial deposit
 * Finalize vault creation and start managing assets
 
+***
 
-
-⚠️ **Important notes:**
+**Note:**
 
 * A **$50 creation fee** is charged in the selected deposit asset at the time of vault creation.
 * It is recommended vaults **are funded** upon creation in order to appear in the public vault listings. Unfunded vaults will remain hidden.
 
-
+***
 
 Here’s what the **Create Vault** screen looks like in the Mars App:
 
@@ -39,7 +45,7 @@ Avoid vague descriptions like “trading stuff” or “DeFi plays.” The more 
 
 You can connect your **Stargaze profile** or **IBC/ICNS Domain** to display a profile picture, social links, and ENS-style name alongside your vault. This adds credibility and helps depositors connect with your strategy.
 
-
+***
 
 ### **Finalizing Your Vault**
 
@@ -59,9 +65,9 @@ You’ll be prompted to approve each step in your wallet.
 
 If you funded the vault during creation, it will also appear on the main public vaults listing. Unfunded vaults will remain hidden.
 
+***
 
-
-⚠️ **Note:**
+**Note:**
 
 The **vault title, deposit asset, description, and withdrawal lockup period** cannot be changed after creation.
 
