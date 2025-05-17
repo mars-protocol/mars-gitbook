@@ -100,6 +100,12 @@ This strategy improves yield performance over the previous example by **optimizi
 
 **Leveraged Yield Farming on Mars Protocol** combines the power of on-chain leverage with efficient liquidity provisioning and incentive farming. By integrating directly with Astroport, Mars offers a seamless and flexible path to optimized yield strategies - backed by a robust risk and collateral model.
 
+If LP asset pairs are **highly correlated**, they may also qualify for **High Leverage Strategies (HLS)**, enabling even greater capital efficiency.
+
+{% content-ref url="high-leverage-strategies.md" %}
+[high-leverage-strategies.md](high-leverage-strategies.md)
+{% endcontent-ref %}
+
 ***
 
 ## Tutorials
