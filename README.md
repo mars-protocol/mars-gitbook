@@ -100,7 +100,7 @@ Begin your journey with an overview of the protocol and how to get up and runnin
 
 ### Risk & Governance
 
-* [**Risk Methodology**](risk-methodology.md) – Learn how risk is measured and mitigated
+* [**Risk Methodology**](risk-methodology/) – Learn how risk is measured and mitigated
 * [**Governance**](governance.md) – Shape the protocol’s future
 
 ***
