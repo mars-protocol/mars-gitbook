@@ -64,7 +64,7 @@ This revenue stream also aligns the vault’s sustainability with the health and
 
 It reflects the daily interest generated from the vault’s accrued trading fees. It varies with platform activity, offering compounded returns to **Liquidity Providers (LPs)** through the **revenue-sharing model.**
 
-<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/mars_perps_vault.png" alt=""><figcaption></figcaption></figure>
 
 #### APY Calculation:
 
