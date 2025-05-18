@@ -60,6 +60,21 @@ This revenue stream also aligns the vault’s sustainability with the health and
 
 ***
 
+### Daily APY
+
+It reflects the daily interest generated from the vault’s accrued trading fees. It varies with platform activity, offering compounded returns to **Liquidity Providers (LPs)** through the **revenue-sharing model.**
+
+<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+
+#### APY Calculation:
+
+<figure><img src="../.gitbook/assets/image (27).png" alt="" width="375"><figcaption></figcaption></figure>
+
+* P<sub>T</sub> = today’s average share-price
+* P<sub>T−30</sub> = average share-price 30 days ago
+
+***
+
 ### Summary
 
 | Feature              | Description                                    |
