@@ -26,12 +26,12 @@ Mars applies tailored rules depending on asset class:
 
 **• Single Tokens**
 
-* Examples: `OSMO`, `USDC`, `TIA`
+* Examples: `dNTRN`, `USDC`, `TIA`
 * Assessed for price stability, market depth, and liquidity
 
 **• LP Tokens**
 
-* Examples: `OSMO-axlUSDC LP`, `TIA-stTIA LP`
+* Examples: `NTRN-USDC LP`, `dTIA-USDC LP`
 * Evaluated for **impermanent loss exposure**, dual-asset correlation, and DEX mechanics
 
 > LP tokens may have **lower LTVs** due to IL risk and more complex price dynamics.
