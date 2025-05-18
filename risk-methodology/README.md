@@ -6,7 +6,7 @@ description: >-
 
 # Risk Methodology
 
-To safeguard the system and user funds, Mars applies a rigorous, data-driven **risk assessment framework** developed by **Delphi Labs** and executed by the **Martian Council**.
+To safeguard the system and user funds, Mars applies a rigorous, data-driven **risk assessment framework** developed by **Mars Protocol Foundation** and executed by the [**Mars Protocol Governance**](../governance.md).
 
 This framework is designed to balance **capital efficiency** with **robust risk mitigation**, using both traditional finance tools and DeFi-native insights.
 
@@ -54,5 +54,5 @@ All assets are scored along a **risk spectrum**. Higher-risk assets are assigned
 
 ### Governance and Oversight
 
-* The **Martian Council** is responsible for applying this framework.
+* The **Mars Protocol DAO** is responsible for applying this framework.
 * Risk parameters can be **updated over time** as asset performance, liquidity, or market conditions evolve.
