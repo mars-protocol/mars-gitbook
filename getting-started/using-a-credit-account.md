@@ -52,14 +52,14 @@ Once you have one or more Credit Accounts, you can **Fund**, **Withdraw**, or **
 * Open the **Credit Account** dropdown and click **Fund**.
 * In the **Fund Credit Account** modal, select assets and amounts (same flow as initial funding) and click **Fund Account**.
 
-<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/mars_account_fund.png" alt=""><figcaption></figcaption></figure>
 
 ### 3.2 Withdraw from Your Account
 
 * From the **Credit Account** dropdown, click **Withdraw**.
 * In the Withdraw modal, choose asset and amount (use slider or **MAX**) and then click **Withdraw** [**→**](https://www.toptal.com/designers/htmlarrows/arrows/right-arrow/)**.**
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/mars_account_withdraw.png" alt=""><figcaption></figcaption></figure>
 
 ### 3.3 Delete a Credit Account
 
