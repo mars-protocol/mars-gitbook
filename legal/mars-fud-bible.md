@@ -46,7 +46,7 @@ Owner: Mars Protocol Foundation\
 Key Holders: Five Mars Protocol Foundation Contributors  \
 Signature Scheme: 3-of-5  \
 Blockchain network: Neutron\
-Addresses: tba\
+Addresses: neutron1ltzuv25ltw9mkwuvvmt7e54a6ene283hfj7l0c\
 Powers: Has various powers relating to the Mars Outpost on Osmosis (Red Bank, Credit  Manager/Rovers). Can whitelist/initialize Red Bank assets, C2C contracts, Vaults, etc. (intended  to follow Martian Council votes). Can upgrade/migrate all smart contracts to new smart contract code (intended  to follow Martian Council votes or be used in security emergencies\
 \
 Mars-on-Osmosis Devs Multisig \
@@ -54,7 +54,7 @@ Owner: Mars Protocol Foundation\
 Key Holders: Five Mars Protocol Foundation Contributors  \
 Signature Scheme: 3-of-5  \
 Blockchain network: Osmosis \
-Address: tba\
+Address: osmo14w4x949nwcrqgfe53pxs3k7x53p0gvlrq34l5n\
 Powers: Has various powers relating to the Mars Outpost on Osmosis (Red Bank, Credit  Manager/Rovers). can whitelist/initialize Red Bank assets, C2C contracts, Vaults, etc. (intended  to follow Martian Council votes). Can upgrade/migrate all smart contracts to new smart contract code (intended  to follow Martian Council votes or be used in security emergencies)
 
 ***
