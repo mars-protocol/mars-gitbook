@@ -10,7 +10,7 @@ Date of Initial Publication: February 21, 2022
 
 Last Updated: January 18, 2023
 
-These terms and conditions (these _“Terms”_ ) constitute a binding legal agreement between each individual, entity, group or association who views, interacts, links to or otherwise uses or derives any benefit from the Site (as defined below) ( _“Users”_ ) and Delphi Labs Ltd, a British Virgin Islands company limited by shares (the owner/operator of the Site) (collectively with its successors and assigns, the _“Site Operator”_ ).
+These terms and conditions (these _“Terms”_ ) constitute a binding legal agreement between each individual, entity, group or association who views, interacts, links to or otherwise uses or derives any benefit from the Site (as defined below) ( _“Users”_ ) and Mars Protocol Foundation, a Cayman Islands company limited by shares (the owner/operator of the Site) (collectively with its successors and assigns, the _“Site Operator”_ ).
 
 Please contact us at [contact@marsprotocol.foundation](mailto:contact@marsprotocol.foundation) for any questions or issues.
 
