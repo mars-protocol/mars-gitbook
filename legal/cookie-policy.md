@@ -16,7 +16,7 @@ Mars Protocol Foundation Ltd, with principal office in Cayman Islands, email [co
 
 ## What are cookies?
 
-Cookies are small text files that are sent to your computer to ensure the technical functionality of the website. Delphi Labs Ltd uses cookies in some areas of its web pages to make it easier for you to use the pages and to make them more personalized.
+Cookies are small text files that are sent to your computer to ensure the technical functionality of the website. Mars Protocol Foundation uses cookies in some areas of its web pages to make it easier for you to use the pages and to make them more personalized.
 
 ## Terminology
 
