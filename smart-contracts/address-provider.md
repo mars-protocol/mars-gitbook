@@ -23,7 +23,12 @@ For reference on the Queries and Methods:
 {% code title="Base Types" %}
 ```typescript
 type MarsAddressType =
-  | ('incentives' | 'oracle' | 'red_bank' | 'rewards_collector' | 'params' | 'credit_manager')
+  | 'incentives' 
+  | 'oracle' 
+  | 'red_bank' 
+  | 'rewards_collector' 
+  | 'params' 
+  | 'credit_manager'
   | 'protocol_admin'
   | 'fee_collector'
   | 'safety_fund'
