@@ -49,14 +49,19 @@ This mechanism ensures **smooth settlement** even when accounts are undercollate
 
 ***
 
-### Revenue Participation
+### c
 
 The Perps Vault is **incentivized** to provide liquidity and absorb trade risk through a **revenue-sharing model**:
 
 * It receives a **portion of perpetual trading fees** collected on the platform.
 * These fees are denominated in **USDC** and accrue over time, bolstering the vault’s capital reserves and enabling long-term participation.
 
-This revenue stream also aligns the vault’s sustainability with the health and growth of the Mars Perpetual Futures ecosystem.
+This revenue stream also aligns the vault’s sustainability with the health and growth of the Mars Perpetual Futures ecosystem.\
+\
+Perpetuals on Mars charge a **0.075% fee per trade**. This fee is split between liquidity providers and the protocol:
+
+* **75%** goes to **Perps Vault depositors**, rewarding them for providing settlement liquidity.
+* **25%** goes to **protocol revenue**, supporting long-term sustainability and development.
 
 ***
 
