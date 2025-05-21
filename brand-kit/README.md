@@ -57,7 +57,7 @@ Download
 Download
 
 * [SVG](https://raw.githubusercontent.com/mars-protocol/mars-gitbook/refs/heads/main/.gitbook/assets/mars-grid.svg)
-* [PNG](https://raw.githubusercontent.com/mars-protocol/mars-gitbook/refs/heads/main/.gitbook/assets/mars-grid.svg)
+* [PNG](https://raw.githubusercontent.com/mars-protocol/mars-gitbook/refs/heads/main/.gitbook/assets/mars-grid.png)
 
 ***
 
