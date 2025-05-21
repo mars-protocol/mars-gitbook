@@ -48,7 +48,7 @@ With Credit Accounts, users can access a wide range of strategies:
 
 ***
 
-## Wo Is Mars Protocol For?
+## Who Is Mars Protocol For?
 
 Mars Protocol serves two major user groups, balancing their needs in one unified marketplace:
 
