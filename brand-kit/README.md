@@ -6,9 +6,42 @@ description: Mars Protocol Brand Assets and Backgrounds.
 
 ## Logo
 
-### Mars
+### Mars Text Logo
 
-<div align="left"><figure><img src="../.gitbook/assets/mars.svg" alt="" width="113"><figcaption><p>Mars Logo</p></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/logo_display.png" alt="" width="375"><figcaption><p>Mars Text Logo</p></figcaption></figure></div>
+
+Download
+
+* [SVG](https://raw.githubusercontent.com/mars-protocol/mars-gitbook/refs/heads/main/.gitbook/assets/Logo.svg)
+* [PNG](https://raw.githubusercontent.com/mars-protocol/mars-gitbook/refs/heads/main/.gitbook/assets/Logo.png)
+
+***
+
+### Mars Logo Detailed
+
+<div align="left"><figure><img src="../.gitbook/assets/MarsLogo.svg" alt="" width="116"><figcaption><p>Mars Logo Detailed</p></figcaption></figure></div>
+
+Download
+
+* [SVG](https://raw.githubusercontent.com/mars-protocol/mars-gitbook/refs/heads/main/.gitbook/assets/MarsLogo.svg)
+* [PNG](https://raw.githubusercontent.com/mars-protocol/mars-gitbook/refs/heads/main/.gitbook/assets/MarsLogo.png)
+
+***
+
+### Mars Grid Logo Detailed
+
+<div align="left"><figure><img src="../.gitbook/assets/logo_legacy_display.png" alt="" width="128"><figcaption><p>Mars Grid Logo Detailed</p></figcaption></figure></div>
+
+Download
+
+* [SVG](https://raw.githubusercontent.com/mars-protocol/mars-gitbook/refs/heads/main/.gitbook/assets/Mars.svg)
+* [PNG](https://raw.githubusercontent.com/mars-protocol/mars-gitbook/refs/heads/main/.gitbook/assets/Mars.png)
+
+***
+
+### Mars Logo Simplified
+
+<div align="left"><figure><img src="../.gitbook/assets/mars.svg" alt="" width="113"><figcaption><p>Mars Logo Simplified</p></figcaption></figure></div>
 
 Download
 
@@ -17,14 +50,14 @@ Download
 
 ***
 
-### Grid
+### Grid Logo Simplified
 
-<div align="left"><figure><img src="../.gitbook/assets/mars-grid-preview.svg" alt="" width="128"><figcaption><p>Mars Grid Logo</p></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/mars-grid-preview.svg" alt="" width="128"><figcaption><p>Grid Logo Simplified</p></figcaption></figure></div>
 
 Download
 
-* [SVG](https://raw.githubusercontent.com/mars-protocol/mars-gitbook/refs/heads/main/.gitbook/assets/mars-grid.png)
-* [PNG](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FQ1QJGh6xDAza1TZJ10LB%2Fuploads%2FZMVlFcmx4BWpxFg3OCD6%2Fmars-grid.png?alt=media\&token=e2283d2b-eca2-4151-b6ae-19e2b3f88651)
+* [SVG](https://raw.githubusercontent.com/mars-protocol/mars-gitbook/refs/heads/main/.gitbook/assets/mars-grid.svg)
+* [PNG](https://raw.githubusercontent.com/mars-protocol/mars-gitbook/refs/heads/main/.gitbook/assets/mars-grid.svg)
 
 ***
 
