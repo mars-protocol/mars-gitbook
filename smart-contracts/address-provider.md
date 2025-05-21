@@ -89,6 +89,8 @@ Provides an array of addresses for provided contract types.
 
 #### all\_addresses
 
+Returns all stored addresses with pagination.
+
 {% code title="Query message" %}
 ```typescript
 {
@@ -112,6 +114,8 @@ Provides an array of addresses for provided contract types.
 {% endcode %}
 
 #### config
+
+Returns the contracts config.
 
 {% code title="Query message" %}
 ```typescript
