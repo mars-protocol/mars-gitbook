@@ -49,7 +49,7 @@ This mechanism ensures **smooth settlement** even when accounts are undercollate
 
 ***
 
-### c
+### Revenue Share Participation
 
 The Perps Vault is **incentivized** to provide liquidity and absorb trade risk through a **revenue-sharing model**:
 
