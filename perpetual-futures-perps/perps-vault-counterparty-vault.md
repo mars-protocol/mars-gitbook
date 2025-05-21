@@ -47,6 +47,9 @@ This mechanism ensures **smooth settlement** even when accounts are undercollate
     * Reduces volatility in vault capacity
     * Protects against sudden liquidity withdrawals that could compromise systemic integrity
 
+    **Important Note:**\
+    During the 10-day lock-up period, your funds remain fully exposed to changes in vault share value (i.e., trading performance). While you continue to earn APY during this period, the underlying value may fluctuate based on vault activity. This is **not** a fixed yield mechanism—APR accrues, but the vault’s performance can impact your actual return.
+
 ***
 
 ### Revenue Share Participation
