@@ -11,7 +11,13 @@ description: >-
 
 ## Tokenomics
 
-### Total Supply
+### Initial supply
+
+```
+1,000,000,000 MARS
+```
+
+### Total Supply (after burns and migrations)
 
 {% code title="Updated 05-14-2025" fullWidth="false" %}
 ```
@@ -20,6 +26,8 @@ description: >-
 {% endcode %}
 
 You can get the total supply of MARS from [this](https://status.marsprotocol.io/ts) API.&#x20;
+
+Burn address on Neutron: [neutron1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqhufaa6](https://neutron.celat.one/neutron-1/accounts/neutron1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqhufaa6)
 
 ### Circulating Supply
 
