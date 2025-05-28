@@ -11,7 +11,7 @@ description: >-
 
 ## Tokenomics
 
-### Initial supply
+### Initial Supply
 
 ```
 1,000,000,000 MARS
