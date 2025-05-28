@@ -17,7 +17,9 @@ description: >-
 1,000,000,000 MARS
 ```
 
-### Total Supply (after burns and migrations)
+### Total Supply
+
+_After burns and migrations._
 
 {% code title="Updated 05-14-2025" fullWidth="false" %}
 ```
