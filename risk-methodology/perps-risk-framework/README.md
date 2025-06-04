@@ -1,6 +1,12 @@
+---
+description: >-
+  The Perps Risk Framework is employed by Mars protocol for estimating risk
+  parameters in perps markets.
+---
+
 # Perps Risk Framework
 
-The Perps Risk Framework is employed by Mars protocol for estimating risk parameters in perps markets. The primary goal is to ensure sufficient margin and safeguards against extreme losses, price manipulation, and excessive market imbalances.
+The primary goal is to ensure sufficient margin and safeguards against extreme losses, price manipulation, and excessive market imbalances.
 
 ### Key Risk Parameters
 
