@@ -359,6 +359,6 @@ $$
 \text{Spread} = \frac{1}{2} \cdot \frac{P_{\text{high}} - P_{\text{low}}}{P_{\text{mid}}}
 $$
 
-where $P_{\text{high}}$ is the highest daily price, $P_{\text{low}}$ is the lowest daily price, and $P_{\text{mid}}$ is the mid-price. The full spread $P_{\text{high}} - P_{\text{low}}$ represents the cost of buying and selling the asset today. As we are only interested in the cost of selling, the cost of liquidity is only half of the spread.
+where $$P_{\text{high}}$ is the highest daily price, $P_{\text{low}}$$ is the lowest daily price, and $P_{\text{mid}}$ is the mid-price. The full spread $P_{\text{high}} - P_{\text{low}}$ represents the cost of buying and selling the asset today. As we are only interested in the cost of selling, the cost of liquidity is only half of the spread.
 
 This metric represents a proxy for the bid-ask spread, widely used as a market width measure.
