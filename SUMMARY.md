@@ -24,6 +24,7 @@
   * [Depositing into Vault](managed-vaults/depositing-into-vault.md)
 * [Risk Methodology](risk-methodology/README.md)
   * [Asset Listing](risk-methodology/asset-listing.md)
+  * [Mars Risk Framework](risk-methodology/mars-risk-framework.md)
 * [Governance](governance.md)
   * [MARS Token](governance/mars-token.md)
 * [Smart Contracts](smart-contracts/README.md)
