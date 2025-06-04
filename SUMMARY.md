@@ -24,7 +24,7 @@
   * [Depositing into Vault](managed-vaults/depositing-into-vault.md)
 * [Risk Methodology](risk-methodology/README.md)
   * [Asset Listing](risk-methodology/asset-listing.md)
-  * [Mars Risk Framework](risk-methodology/mars-risk-framework.md)
+  * [Protocol Risk Framework](risk-methodology/mars-risk-framework.md)
   * [Perps Risk Framework](risk-methodology/perps-risk-framework/README.md)
     * [Maximum Leverage & LTVs](risk-methodology/perps-risk-framework/maximum-leverage-and-ltvs.md)
     * [SkewScale](risk-methodology/perps-risk-framework/skewscale.md)

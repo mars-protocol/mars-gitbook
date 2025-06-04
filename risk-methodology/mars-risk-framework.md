@@ -1,10 +1,10 @@
 ---
 description: >-
-  This document describes a proposed risk framework for Mars, which serves two
-  main purposes
+  This document describes the risk framework of the Mars Protocol, which serves
+  two main purposes.
 ---
 
-# Mars Risk Framework
+# Protocol Risk Framework
 
 1. To qualitatively assess the riskiness of protocols and assets to be added to the platform (including the Red Bank and Mars credit accounts).
 2. To determine the risk parameters for assets to be added to Mars. Initially, this framework will cover two types of assets: single asset tokens and LP tokens.
