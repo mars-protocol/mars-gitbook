@@ -55,12 +55,12 @@ For whitelisted assets, market and liquidity risks are assessed to calculate an 
 
 The scoring methodology evaluates assets in two broad categories: market risk and liquidity risk. Market risk is related to the volatility of the asset and extreme changes in its price, whereas liquidity risk is related to the ability to liquidate the asset. Specifically, assets are scored using the following metrics:
 
-- **Daily 95% Conditional Value-at-Risk (CVaR, 365-days):** an average of the “extreme” losses in the tail of the distribution of asset returns beyond the value at risk (VaR) cutoff point defined over the past 365 days.
-- **Maximum intraday drawdown (90-day):** maximum price change (from high to low) in a trading day over the last 90 days.
-- **Median 24hr volume (365-day, logarithm):** median 24hr volume over the last 365 days.
-- **Median 24hr market capitalization (7-day average, 90-days, logarithm):** median 7-day average 24hr market capitalization over the last 90 days.
-- **Average high-low percent quoted spread (30-day):** daily bid-ask spread proxy (see Appendix A for details).
-- **Amihud’s illiquidity measure (90-day, logarithm):** daily cost-per-dollar-volume proxy (see Appendix A for details).
+* **Daily 95% Conditional Value-at-Risk (CVaR, 365-days):** an average of the “extreme” losses in the tail of the distribution of asset returns beyond the value at risk (VaR) cutoff point defined over the past 365 days.
+* **Maximum intraday drawdown (90-day):** maximum price change (from high to low) in a trading day over the last 90 days.
+* **Median 24hr volume (365-day, logarithm):** median 24hr volume over the last 365 days.
+* **Median 24hr market capitalization (7-day average, 90-days, logarithm):** median 7-day average 24hr market capitalization over the last 90 days.
+* **Average high-low percent quoted spread (30-day):** daily bid-ask spread proxy (see Appendix A for details).
+* **Amihud’s illiquidity measure (90-day, logarithm):** daily cost-per-dollar-volume proxy (see Appendix A for details).
 
 The following subsections describe the methodology used to score tokens in each of these metrics.
 
@@ -88,7 +88,7 @@ Let’s explore each step below.
 
 Firstly, all metrics for each asset are transformed into a score from 0 to 100 to standardize the scoring methodology and compare different assets more efficiently. For this transformation (from metric to 0-100 score), a linear scaling method (min-max normalization) is used. The normalized values represent individual metric scores assigned to each asset. The detailed procedure is the following:
 
-Let $p_{ij}, i \in [M], j \in [N]$ denote the initial value of the $j$-th metric of the $i$-th asset, $b_{ij}$ is a normalized value of $p_{ij}$; $p_{min,j}, p_{max,j}$ are the minimum and the maximum values of the $j$-th metric over all assets.
+Let $$p_{ij}, i \in [M], j \in [N]$$ denote the initial value of the $$j$$-th metric of the $$i$$-th asset, $$b_{ij}$$ is a normalized value of $$p_{ij}$$; $$p_{min,j}, p_{max,j}$$ are the minimum and the maximum values of the $$j$$-th metric over all assets.
 
 For positive metrics (i.e., those that increase with improving asset quality), the normalization is performed as follows:
 
@@ -118,7 +118,7 @@ _Example:_
 
 | Asset | Daily 95% CVaR | Maximum Intraday Drawdown | Median 24hr volume | Median 24hr market capitalization | Mean high-low percentage quoted spread | Amihud's illiquidity measure |
 | :---: | :------------: | :-----------------------: | :----------------: | :-------------------------------: | :------------------------------------: | :--------------------------: |
-|   X   |       90       |            82             |         47         |                60                 |                   70                   |              80              |
+|   X   |       90       |             82            |         47         |                 60                |                   70                   |              80              |
 
 Let asset X have the following scores:
 
@@ -140,7 +140,7 @@ $$
 \Delta = \frac{\text{ceiling} - \text{floor}}{k}
 $$
 
-where $k$ equals $N-2$, $N –$ is the number of categories. The corresponding interval boundaries are:
+where $$k$$ equals $$N-2$$, $$N –$$ is the number of categories. The corresponding interval boundaries are:
 
 $$
 \text{floor} + \Delta,\quad \text{floor} + 2\Delta,\quad \ldots,\quad \text{floor} + (k - 1)\Delta
@@ -148,12 +148,12 @@ $$
 
 Each asset is assigned a quality category depending on the interval in which the value of the final score falls, according to the following table:
 
-| Quality Category |   Score    |
+| Quality Category |    Score   |
 | :--------------: | :--------: |
-|    Very good     | \[80; 100] |
-|       Good       | \[68; 80]  |
-|      Medium      | \[56; 68]  |
-|       Bad        | \[43, 56]  |
+|     Very good    | \[80; 100] |
+|       Good       |  \[68; 80] |
+|      Medium      |  \[56; 68] |
+|        Bad       |  \[43, 56] |
 |     Very bad     |  \[0; 43]  |
 
 _Table 1. Bins for quality categories_
@@ -172,9 +172,9 @@ This section describes the approach to determine the risk parameters for whiteli
 
 #### 3.1 Definitions
 
-- **Liquidation LTV** is the LTV at which a position is defined as undercollateralized and the user becomes liquidatable.
-- **Maximum LTV** (≤ Liquidation LTV) is the maximum LTV allowed when the user is opening or adjusting a position.
-- **Margin of Safety** is the difference between the Liquidation LTV and Max. LTV. It’s a safety cushion to avoid users becoming liquidatable immediately after opening a position at the maximum allowed LTV.
+* **Liquidation LTV** is the LTV at which a position is defined as undercollateralized and the user becomes liquidatable.
+* **Maximum LTV** (≤ Liquidation LTV) is the maximum LTV allowed when the user is opening or adjusting a position.
+* **Margin of Safety** is the difference between the Liquidation LTV and Max. LTV. It’s a safety cushion to avoid users becoming liquidatable immediately after opening a position at the maximum allowed LTV.
 
 The derivation of Liquidation LTV is described in Section 3.2. The approach to define Margin of Safety and corresponding Maximum LTV is provided in Section 3.3. Lastly, in Section 3.4 the methodology to determine these risk parameters for LP tokens is explored.
 
@@ -202,12 +202,12 @@ $$
 
 The haircut intends to capture the percentage potential loss of value of a given asset after it becomes liquidatable due to the following factors:
 
-- Market risk component – risk related to possible extreme price movements.
-- Liquidity risk component – the cost of liquidating a position following a liquidation event due to the impact of the liquidation on the market price.
+* Market risk component – risk related to possible extreme price movements.
+* Liquidity risk component – the cost of liquidating a position following a liquidation event due to the impact of the liquidation on the market price.
 
 A detailed description of the calculation approach for both components is given in the following subsections. The greater the asset's market and/or liquidity risk, the higher the corresponding haircut and the lower the LTV.
 
-The $LTV_{cap}$ serves to limit the LTV obtained from the historical data to ensure conservatism and depends on the token’s quality as defined in Section 2 (see Table 3 below).
+The $$LTV_{cap}$$ serves to limit the LTV obtained from the historical data to ensure conservatism and depends on the token’s quality as defined in Section 2 (see Table 3 below).
 
 **Market Risk Component**
 
@@ -235,7 +235,7 @@ $$
 \text{Liquidity Risk Component} = \text{Swap Size } \$ \times \left( \frac{0.02}{\text{Depth}_{-2\%}} \right)
 $$
 
-Here the multiplier\
+Here the multiplier\\
 
 $$
 \frac{0.02}{\text{Depth}_{-2\%}}
@@ -245,13 +245,13 @@ shows how much % the price will move down subject to $1 volume.
 
 Depth refers to the ability of the market to absorb the sale or exit of a position. A liquidator who liquidates a position of an ordinary user is not likely to impact the asset price. Selling a large block of assets though, can cause the price to fall when the asset is sold. Hence, the Swap Size is set to depend on the asset's deposit cap and is defined conservatively, assuming a medium-size transaction amount that can have a notable impact on the asset price as 1% of the deposit cap.
 
-The risk horizon and $LTV_{cap}$ for each token’s category are provided in the table below:
+The risk horizon and $$LTV_{cap}$$ for each token’s category are provided in the table below:
 
 _Table 3. Risk horizons and LTV caps per asset’s quality category_
 
 #### 3.3 Maximum LTV and Margin of Safety for Single Asset Tokens
 
-The Liquidation LTV is defined based on the $CVaR(99\%, \text{horizon})$ with the horizon determined by the token’s quality category. The safety margin is defined as the absolute difference between the CVaR calculated at the defined horizon plus 1 day and the $CVaR(99\%, \text{horizon})$:
+The Liquidation LTV is defined based on the $$CVaR(99%, \text{horizon})$$ with the horizon determined by the token’s quality category. The safety margin is defined as the absolute difference between the CVaR calculated at the defined horizon plus 1 day and the $$CVaR(99%, \text{horizon})$$:
 
 Thus, the margin of safety is defined by the relative price drop incurred in one additional day in relation to the horizon used to determine the Liquidation LTV.
 
@@ -277,7 +277,7 @@ $$
 \text{Liq. LTV}_{\text{LP token}} = \text{Avg}(\text{Liq. LTV}_1, \text{Liq. LTV}_2) \times \text{IL Risk Adjustment}
 $$
 
-where $Liq.LTV_{1}, Liq.LTV_{2}$ are the Liquidation LTVs of the assets that compose the LP token (assuming a 50/50 LP token). The IL Risk Adjustment $\,\leq\,1$ is intended to capture the additional impermanent loss risks associated with holding an LP token (vs. a 50/50 portfolio of the individual assets).
+where $$Liq.LTV_{1}, Liq.LTV_{2}$$ are the Liquidation LTVs of the assets that compose the LP token (assuming a 50/50 LP token). The IL Risk Adjustment $$,\leq,1$$ is intended to capture the additional impermanent loss risks associated with holding an LP token (vs. a 50/50 portfolio of the individual assets).
 
 The IL risk is defined as follows:
 
@@ -285,7 +285,7 @@ $$
 \text{IL Risk Adjustment} = 1 + \text{Expected IL}
 $$
 
-where Expected $IL \leq 0$.
+where Expected $$IL \leq 0$$.
 
 Assuming a 50%/50% LP token and constant product AMM, IL is calculated as follows:
 
@@ -293,7 +293,7 @@ $$
 \text{IL} = 2 \cdot \frac{\sqrt{R}}{R + 1} + 1
 $$
 
-where $R = \frac{P_{1}}{P_{0}} = \frac{1 + r^x_{1}}{1 + r^y_{1}}$, $r^x_{1}$ and $r^y_{1}$ are simple assets’ returns calculated over the unit of time and $P_i$ is the pool price. _Note that the above IL formula excludes trading fees and other rewards LP token holders may accrue. This is intentional and is done to calculate a worse-case IL, which ultimately generates a more conservative LTV for the LP token._
+where $$R = \frac{P_{1}}{P_{0}} = \frac{1 + r^x_{1}}{1 + r^y_{1}}$$, $$r^x_{1}$$ and $$r^y_{1}$$ are simple assets’ returns calculated over the unit of time and $$P_i$$ is the pool price. _Note that the above IL formula excludes trading fees and other rewards LP token holders may accrue. This is intentional and is done to calculate a worse-case IL, which ultimately generates a more conservative LTV for the LP token._
 
 From the above formula, historical ILs for each pool are calculated by using the 10-day overlapping asset returns over the past 365 days.
 
@@ -321,7 +321,7 @@ $$
 \text{Max. LTV}_{\text{LP token}} = \text{Liq. LTV}_{\text{LP token}} - \text{Margin of Safety}_{\text{LP token}}
 $$
 
-where $Margin\ of\ Safety_{1},\ Margin\ of\ Safety_{2}$ are the Margins of Safety of the assets that compose the LP token.
+where $$Margin\ of\ Safety_{1},\ Margin\ of\ Safety_{2}$$ are the Margins of Safety of the assets that compose the LP token.
 
 ### 4. Model Usage, Monitoring and Update
 
@@ -345,7 +345,7 @@ $$
 \text{illiq} = \frac{1}{n} \sum_{i=1}^{n} \frac{|R_i|}{V_i}
 $$
 
-where $R_{i}$ is the daily asset return at day $i$ and $V_{i}$ is the daily dollar trading volume at $i$.
+where $$R_{i}$$ is the daily asset return at day $$i$$ and $$V_{i}$$ is the daily dollar trading volume at $$i$$.
 
 In cases where significant price changes with small trading volume exist, this ratio increases, which means that the illiquidity of the stock increases. Everything else being equal, a higher trading volume will lead to a lower Amihud illiquidity measure.
 
@@ -359,6 +359,6 @@ $$
 \text{Spread} = \frac{1}{2} \cdot \frac{P_{\text{high}} - P_{\text{low}}}{P_{\text{mid}}}
 $$
 
-where $$P_{\text{high}}$ is the highest daily price, $P_{\text{low}}$$ is the lowest daily price, and $P_{\text{mid}}$ is the mid-price. The full spread $P_{\text{high}} - P_{\text{low}}$ represents the cost of buying and selling the asset today. As we are only interested in the cost of selling, the cost of liquidity is only half of the spread.
+where $$P_{\text{high}}$$ is the highest daily price, $$P_{\text{low}}$$ is the lowest daily price, and $$P_{\text{mid}}$$ is the mid-price. The full spread $$P_{\text{high}} - P_{\text{low}}$$ represents the cost of buying and selling the asset today. As we are only interested in the cost of selling, the cost of liquidity is only half of the spread.
 
 This metric represents a proxy for the bid-ask spread, widely used as a market width measure.
