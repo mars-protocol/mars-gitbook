@@ -14,7 +14,7 @@ This framework is designed to balance **capital efficiency** with **robust risk 
 
 ### Risk Framework Overview
 
-The **Mars Risk Framework** is a structured process used to evaluate:
+The [**Mars Risk Framework**](mars-risk-framework.md) is a structured process used to evaluate:
 
 * **New protocol integrations**
 * **Asset listings** (standard tokens and LP tokens)
