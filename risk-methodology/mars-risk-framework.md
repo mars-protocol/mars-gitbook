@@ -217,7 +217,7 @@ $$
 \text{Market Risk Component} = -\text{CVaR}(99\%, \text{Risk Horizon})
 $$
 
-where CVaR(99%, Risk Horizon) ≤ 0 is defined by using the historical-simulation approach, which implies that the probability distribution and corresponding tail-risk are estimated empirically from the observed price movements (percentage asset returns) over the past 365 days from the reference date.
+where $$CVaR(99\%, Risk Horizon) ≤ 0$$ is defined by using the historical-simulation approach, which implies that the probability distribution and corresponding tail-risk are estimated empirically from the observed price movements (percentage asset returns) over the past 365 days from the reference date.
 
 _It’s important to highlight that this methodology only provides an estimate of extreme future price trajectories of a given asset. This estimate is based on past price performance and, as such, it should be understood as a backward-looking, fallible (though valuable) tool for predicting future prices._
 
@@ -251,7 +251,7 @@ _Table 3. Risk horizons and LTV caps per asset’s quality category_
 
 #### 3.3 Maximum LTV and Margin of Safety for Single Asset Tokens
 
-The Liquidation LTV is defined based on the $$CVaR(99%, \text{horizon})$$ with the horizon determined by the token’s quality category. The safety margin is defined as the absolute difference between the CVaR calculated at the defined horizon plus 1 day and the $$CVaR(99%, \text{horizon})$$:
+The Liquidation LTV is defined based on the $$CVaR(99\%, \text{horizon})$$ with the horizon determined by the token’s quality category. The safety margin is defined as the absolute difference between the CVaR calculated at the defined horizon plus 1 day and the $$CVaR(99\%, \text{horizon})$$:
 
 Thus, the margin of safety is defined by the relative price drop incurred in one additional day in relation to the horizon used to determine the Liquidation LTV.
 
