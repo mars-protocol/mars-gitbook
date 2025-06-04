@@ -67,7 +67,7 @@ $$
 
 ### Max Leverage Caps
 
-For each asset, we first apply our main [Mars Risk Framework](https://github.com/mars-protocol/mips/blob/main/Mars-Risk-Framework.md) to determine its quality category depending on the volatility and liquidity. The following maximum leverage caps are then applied based on the asset quality:
+For each asset, we first apply our main [Mars Risk Framework](../mars-risk-framework.md) to determine its quality category depending on the volatility and liquidity. The following maximum leverage caps are then applied based on the asset quality:
 
 | Quality Category | MaxLeverageCap |
 | ---------------- | -------------- |
