@@ -28,7 +28,7 @@ Here’s what the **Create Vault** screen looks like in the Mars App:
 
 > This screen allows you to configure your vault’s title, asset, initial deposit, performance fee, and withdrawal lockup period.
 
-<figure><img src="../.gitbook/assets/create_vault.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/create_vault.png" alt=""><figcaption></figcaption></figure>
 
 Add a Clear Strategy Description
 
@@ -84,7 +84,7 @@ If you approve the **first transaction** (Vault Creation) but drop out before co
 
 Once these are done, your vault will be fully functional and, if funded, listed publicly.
 
-<figure><img src="../.gitbook/assets/vault_recovery.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/vault_recovery.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ***
 

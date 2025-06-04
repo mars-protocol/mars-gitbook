@@ -63,8 +63,8 @@ To support users and prospective vault managers, Mars Protocol provides comprehe
 * **Creating a Vault**\
   A guide for traders or strategy designers on how to configure and launch a vault.
 
-{% content-ref url="creating-a-vault.md" %}
-[creating-a-vault.md](creating-a-vault.md)
+{% content-ref url="creating-a-vault/" %}
+[creating-a-vault](creating-a-vault/)
 {% endcontent-ref %}
 
 * **Managing a Vault**\
