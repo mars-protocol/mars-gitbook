@@ -20,9 +20,9 @@ contract address and proceeding with a dedicated resume flow.
 
 ***
 
-### Step-by-Step Guide
+## Step-by-Step Guide
 
-#### Step 1: Locate the Vault’s Contract Address
+### Step 1: Locate the Vault’s Contract Address
 
 1. Open the [Mars App](https://app.marsprotocol.io/) and click the **wallet icon** in the top-right corner.
 
@@ -49,20 +49,30 @@ contract address and proceeding with a dedicated resume flow.
 
 ***
 
-#### Step 2: Resume Vault Creation
+### Step 2: Resume Vault Creation
 
-Once you have copied the vault contract address, you can resume creation using the resume page:
+Once you have copied the vault contract address, you can resume creation using the create vault page:
 
-```plaintext
-plaintextKopierenBearbeitenhttps://app.marsprotocol.io/vaults/resume/{VAULT_ADDRESS}
-```
+{% embed url="https://app.marsprotocol.io/vaults/create" %}
+Create Vault Page
+{% endembed %}
 
-1. Replace `{VAULT_ADDRESS}` with the address you just copied.
-2. Paste the updated URL into your browser and press Enter.
-3. Follow the on-screen instructions to complete your vault setup.
+1. Click on the _Contine Setup_ button inside the [Create Vault Page](https://app.marsprotocol.io/vaults/create).
+
+<figure><img src="../../.gitbook/assets/continue-setup.png" alt=""><figcaption><p>Click on Continue Setup</p></figcaption></figure>
+
+Alternatively use the _Continue Setup_ button in the [_My Vaults_ Table](https://app.marsprotocol.io/vaults).
+
+<figure><img src="../../.gitbook/assets/continue-setup-table.png" alt=""><figcaption><p>Alternative click on Continue Setup in the My Vaults table</p></figcaption></figure>
+
+2. Insert the copied Vault Address into the modal, that shows after clicking on the _Continue Setup_ button.
+
+<figure><img src="../../.gitbook/assets/continue-minting.png" alt=""><figcaption><p>Copy the vault address into the input field</p></figcaption></figure>
+
+3. Click on _Continue Minting Vault_ and you will be able to resume the minting process.
 
 ***
 
 ### Summary
 
-In the event of a transaction timeout during vault instantiation, your vault may still be live on-chain. By locating the contract address and visiting the dedicated resume page, you can seamlessly continue the setup process without starting over.\
+In the event of a transaction timeout during vault instantiation, your vault may still be live on-chain. By locating the contract address and visiting the _Create Vault_ page, you can seamlessly continue the setup process without starting over.\
