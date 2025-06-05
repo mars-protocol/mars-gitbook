@@ -1,12 +1,14 @@
 ---
 description: >-
   This step-by-step guide shows you how to resume a mint that failed due to a
-  timeout during the instantiation of the vault.
+  timeout or any other error during the vault's instantiation.
 ---
 
-# How to Resume Vault Creation After Timeout
+# How to Resume Vault Creation After Failed Transaction
 
 ## Introduction
+
+### Timeout Error
 
 If you encounter the following error during vault creation:
 
@@ -14,9 +16,9 @@ If you encounter the following error during vault creation:
 
 This indicates that your transaction **timed out during the instantiation** of the vault. While the transaction may have succeeded on-chain, the app lost track of it due to latency or network issues.
 
-Instead of restarting the process entirely, you can **manually resume vault creation** by recovering the contract address and proceeding with a dedicated resume flow.
+### Resume the Vault Creation
 
-contract address and proceeding with a dedicated resume flow.
+Instead of restarting the process entirely, you can **manually resume vault creation** by recovering the contract address and proceeding with a dedicated resume flow.
 
 ***
 

@@ -20,7 +20,7 @@
 * [High Leverage Strategies](high-leverage-strategies.md)
 * [Managed Vaults](managed-vaults/README.md)
   * [Creating a Vault](managed-vaults/creating-a-vault/README.md)
-    * [How to Resume Vault Creation After Timeout](managed-vaults/creating-a-vault/how-to-resume-vault-creation-after-timeout.md)
+    * [How to Resume Vault Creation After Failed Transaction](managed-vaults/creating-a-vault/how-to-resume-vault-creation-after-failed-transaction.md)
   * [Managing a Vault](managed-vaults/managing-a-vault.md)
   * [Depositing into Vault](managed-vaults/depositing-into-vault.md)
 * [Risk Methodology](risk-methodology/README.md)
