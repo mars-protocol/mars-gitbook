@@ -54,9 +54,7 @@ The benefit of this approach is that adding a new market does not affect the ris
 
 ### Potential Loss for a Single Market
 
-Assuming the open interest (OI) in token amounts remains constant over the period $\[t, t+h]$ (meaning no positions are opened or closed), the unrealized profit and loss (UPnL) for a single market at time $t+h$ is:
-
-$$UPnLt+h=∑qj(pt+h−pj)=t+h} = \sum q_{j}(p_{t+h} - p_{j}) = p_{t+h} \sum q_{j} - \sum q_{j} p_{j} = p_{t+h} K_{t} - \sum q_{j} p_{j}$$
+Assuming the open interest (OI) in token amounts remains constant over the period $$[t, t+h]$$ (meaning no positions are opened or closed), the unrealized profit and loss (UPnL) for a single market at time $$t+h$$ is:$$UPnLt+h=∑qj(pt+h−pj)=t+h} = \sum q_{j}(p_{t+h} - p_{j}) = p_{t+h} \sum q_{j} - \sum q_{j} p_{j} = p_{t+h} K_{t} - \sum q_{j} p_{j}$$
 
 $$
 UPnL_{t+h} = \sum q_{j}(p_{t+h} - p_{j}) = p_{t+h} \sum q_{j} - \sum q_{j} p_{j} = p_{t+h} K_{t} - \sum q_{j} p_{j}
@@ -69,6 +67,14 @@ where:
 * $$K_{t} = \sum q_{j}$$ is the token-denominated market skew at time $$t$$
 
 Let's assume that all N traders entered their positions simultaneously at time $$t$$ using the average opening price across all positions as $$p_{0,t} = \frac{1}{N} \sum p_{j}$$. Then the total unrealized PnL is:$$UPnLt+h=Kt⋅(pt+h−p0)=Kt⋅p0,t⋅rt+h=Kt,$⋅rt+hUPnL_{t+h} = K_{t} \cdot (p_{t+h} - p_{0}) = K_{t} \cdot p_{0,t} \cdot r_{t+h} = K_{t,\$} \cdot r_{t+h}UPnLt+h​=Kt​⋅(pt+h​−p0​)=Kt​⋅p0,t​⋅rt+h​=Kt,$​⋅rt+h​$$
+
+$$UPnLt+h=Kt⋅(pt+h−p0)=Kt⋅p0,t⋅rt+h=Kt,$$
+
+$$⋅rt+hUPnL_{t+h} = K_{t} \cdot (p_{t+h} - p_{0}) = K_{t}$$,&#x20;
+
+$$p_{0,t} \cdot r_{t+h} = K_{t,$} \cdot r_{t+h}UPnLt+h​=Kt​⋅(pt+h​−p0​)=Kt​⋅p0,t​⋅rt+h​=Kt,$$
+
+$$​⋅rt+h​$$
 
 $$
 UPnL_{t+h} = K_{t} \cdot (p_{t+h} - p_{0}) = K_{t} \cdot p_{0,t} \cdot r_{t+h} = K_{t,\$} \cdot r_{t+h}
