@@ -66,7 +66,7 @@ where:
 * $$p_{j}$$ is the entering price for the $$j$$th position
 * $$K_{t} = \sum q_{j}$$ is the token-denominated market skew at time $$t$$
 
-Let's assume that all N traders entered their positions simultaneously at time $$t$$ using the average opening price across all positions as $$p_{0,t} = \frac{1}{N} \sum p_{j}$$. Then the total unrealized PnL is:$$UPnLt+h=Kt⋅(pt+h−p0)=Kt⋅p0,t⋅rt+h=Kt,$⋅rt+hUPnL_{t+h} = K_{t} \cdot (p_{t+h} - p_{0}) = K_{t} \cdot p_{0,t} \cdot r_{t+h} = K_{t,\$} \cdot r_{t+h}UPnLt+h​=Kt​⋅(pt+h​−p0​)=Kt​⋅p0,t​⋅rt+h​=Kt,$​⋅rt+h​$$
+Let's assume that all N traders entered their positions simultaneously at time $$t$$ using the average opening price across all positions as $$p_{0,t} = \frac{1}{N} \sum p_{j}$$. Then the total unrealized PnL is:
 
 $$UPnLt+h=Kt⋅(pt+h−p0)=Kt⋅p0,t⋅rt+h=Kt,$$
 
