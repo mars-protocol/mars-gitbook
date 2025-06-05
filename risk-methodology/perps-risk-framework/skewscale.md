@@ -17,7 +17,7 @@ Depending on the prevailing skew and the direction of the order, the actual slip
 ### Calculation
 
 $$
-SkewScale=Depth_ {s\%} \div 2⋅s%SkewScale = \frac{Depth_{s\%}}{2 \cdot s\%}SkewScale=2⋅s%Depths%​​
+skewScale= \frac{Depth_{s\%}}{2⋅s\%}​​
 $$
 
 where
@@ -32,9 +32,9 @@ Formal proof is provided in the Appendix.
 
 ### Input Data
 
-| Data Item              | Description                                                                           | Source    | Period/Frequency | Processing          |
-| ---------------------- | ------------------------------------------------------------------------------------- | --------- | ---------------- | ------------------- |
-| $$Depth_{\pm 2\%, $}$$ | $$\pm 2\%$$ aggregated global market depth across leading exchanges and trading pairs | Coingecko | 90-day median    | Transform to tokens |
+| Data Item                                 | Description                                                                           | Source    | Period/Frequency | Processing          |
+| ----------------------------------------- | ------------------------------------------------------------------------------------- | --------- | ---------------- | ------------------- |
+| $$Depth_{\pm 2\%, $}$$$$Depth_{\pm s\%}$$ | $$\pm 2\%$$ aggregated global market depth across leading exchanges and trading pairs | Coingecko | 90-day median    | Transform to tokens |
 
 ### Key Assumptions
 
@@ -69,3 +69,41 @@ r_{t} = r_{t-1} + maxFundingVelocity \cdot \frac{skew}{skewScale} \cdot \Delta t
 $$
 
 Therefore, the same skewScale parameter is used in the funding rate model, given that maxFundingVelocity is determined using the aforementioned transformation.
+
+## Appendix. Proof for the skewScale formula
+
+The price model with the market impact is the following:
+
+$$p_{ex} = p_{or} \cdot \left( 1 + \frac{K}{skewScale} + \frac{q}{2 \cdot skewScale} \right)$$
+
+where $$p_{ex}$$ is the order execution price, $$p_{or}$$ is the oracle price, $$q$$ is the position size (positive or negative), $$K$$ is the current skew (positive or negative), $$skewScale > 0$$ is the model parameter.
+
+Let the current skew $$K$$ is zero (the market is perfectly balanced).
+
+According to the price model, when a user opens a position of size $$q$$, the percentage price slippage is the following:
+
+$$Slippage = \frac{q}{2 \cdot skewScale}$$
+
+where $$Slippage$$ is positive when $$q > 0$$ and negative otherwise.
+
+When the slippage is known, the $$skewScale$$ parameter can be found as follows:
+
+$$skewScale = \frac{q}{2 \cdot Slippage}$$
+
+We use global slippage as a benchmark to calibrate the parameter. When opening a long position of size $$q = Depth_{+s%}$$ the slippage should be $$s%$$. Then we have the parameter value for longs:
+
+$$skewScale_L = \frac{Depth_{+s\%}}{2 \cdot s\%}$$
+
+When opening the short position of size $$q = -Depth_{-s%}$$ the slippage should be $$-s%$$. Then we have the parameter value for shorts:
+
+$$skewScale_S = \frac{Depth_{-s\%}}{2 \cdot s\%}$$
+
+The minimum is taken to get the final parameter:
+
+$$skewScale = \min(skewScale_L, skewScale_S) = \frac{Depth_{s\%}}{2 \cdot s\%}$$
+
+where
+
+$$Depth_{s\%} = \min(Depth_{+s\%}, Depth_{-s\%})$$
+
+**This completes the proof.**

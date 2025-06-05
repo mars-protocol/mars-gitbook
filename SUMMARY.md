@@ -32,6 +32,7 @@
     * [Open Interest Caps](risk-methodology/perps-risk-framework/open-interest-caps.md)
     * [Maximum Funding Velocity](risk-methodology/perps-risk-framework/maximum-funding-velocity.md)
     * [Mitigating Risks of Static Parameters](risk-methodology/perps-risk-framework/mitigating-risks-of-static-parameters.md)
+  * [Deposit Caps Risk Framework](risk-methodology/deposit-caps-risk-framework.md)
 * [Governance](governance.md)
   * [MARS Token](governance/mars-token.md)
 * [Smart Contracts](smart-contracts/README.md)
