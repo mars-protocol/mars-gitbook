@@ -116,7 +116,7 @@ By integrating the funding rate's behavior into the funding accumulation equatio
 
 $$F_{T} = \tau^{2} \cdot q \cdot p_{0} \cdot c \cdot w \cdot \sum (1 + y \cdot t \cdot \tau) \cdot t$$
 
-The sum $\sum (1 + y \cdot t \cdot \tau) \cdot t$ can be represented as follows:
+The sum $$\sum (1 + y \cdot t \cdot \tau) \cdot t$$ can be represented as follows:
 
 $$\sum (1 + y \cdot t \cdot \tau) \cdot t = \sum t + y \cdot \tau \sum t^{2} = S_{1} + y \cdot \tau \cdot S_{2}$$
 
