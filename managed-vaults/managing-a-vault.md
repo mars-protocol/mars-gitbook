@@ -18,8 +18,14 @@ You can return to this page anytime via the **vault page**, your **portfolio**, 
 
 Here are the key elements you'll find on the vault dashboard:
 
-* **Vault Summary (left panel)**\
-  Shows your vault’s title, description, APY, total value locked (TVL), performance fee %, and the withdrawal freeze period. It also includes your Stargaze-linked identity (if connected).
+*   **Vault Summary (left panel)**\
+    Shows your vault’s title, description, APY, total value locked (TVL), performance fee %, and the withdrawal freeze period. It also includes your Stargaze-linked identity (if connected).
+
+
+
+    > **APY** — Based on 30-day rolling average of vault performance. Newer vaults may show volatile or inflated values until the data matures.
+
+
 *   **Performance Fee Panel (top panel)**
 
     Shows how much in fees you’ve earned. You can only claim performance fees **once per month** — typically during a claim window. A **Claim** button will be enabled when eligible.

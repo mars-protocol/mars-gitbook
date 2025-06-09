@@ -43,6 +43,10 @@ Before depositing, you should always review the vault’s:
 
 > **Note:** Vault managers take a **performance fee**, which is a cut of the profits they generate. You can see the fee percentage on the vault’s summary panel.
 
+> **Note on APY:**\
+> The APY displayed is based on a **30-day rolling average** of the vault’s performance.\
+> If a vault is **less than 30 days old**, the APY may appear volatile or unrepresentative until sufficient historical data is collected.
+
 ***
 
 ### DYOR (Do Your Own Research)
