@@ -24,6 +24,8 @@ Here are the key elements you'll find on the vault dashboard:
 
 
     > **APY** — Based on 30-day rolling average of vault performance. Newer vaults may show volatile or inflated values until the data matures.
+    >
+    > An -100% APY (as a result of a young age of the vault) will be shown as 0.00%
 
 
 *   **Performance Fee Panel (top panel)**
