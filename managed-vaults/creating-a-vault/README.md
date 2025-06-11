@@ -67,27 +67,6 @@ If you funded the vault during creation, it will also appear on the main public 
 
 ***
 
-### Resuming an Incomplete Vault Setup
-
-If you approve the **first transaction** (Vault Creation) but drop out before completing the process (Vault Account Minting or Deposit), don’t worry — your progress is saved.
-
-* A **"Continue Setup"** button will appear the next time you visit:
-  * The **Create Vault** page
-  * Or your **My Vaults** table
-* This allows you to finish setting up your vault without re-entering the details.
-
-> The initial transaction already charged the **$50 creation fee** and saved your vault parameters on-chain.\
-> You will **not be charged again**. You only need to complete:
-
-1. Vault Account Minting
-2. (Optional) Initial Deposit — if you had selected it
-
-Once these are done, your vault will be fully functional and, if funded, listed publicly.
-
-<figure><img src="../../.gitbook/assets/vault_recovery.png" alt="" width="375"><figcaption></figcaption></figure>
-
-***
-
 **Note:**
 
 The **vault title, deposit asset, description, and withdrawal lockup period** cannot be changed after creation.

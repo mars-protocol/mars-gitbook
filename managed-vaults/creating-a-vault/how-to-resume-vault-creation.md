@@ -1,14 +1,39 @@
 ---
 description: >-
-  This step-by-step guide shows you how to resume a mint that failed due to a
-  timeout or any other error during the vault's instantiation.
+  This step-by-step guide shows you how to resume vault creation — whether you
+  dropped off before completing the setup, or encountered a timeout or other
+  error during the process.
 ---
 
-# How to Resume Vault Creation After Failed Transaction
+# How to Resume Vault Creation
 
-## Introduction
+## If You Didn’t Finish Vault Setup
 
-### Timeout Error
+If you approve the **first transaction** (Vault Creation) but drop out before completing the process (Vault Account Minting or Deposit), don’t worry — your progress is saved.
+
+* A **"Continue Setup"** button will appear the next time you visit:
+  * The **Create Vault** page
+  * Or your **My Vaults** table
+* This allows you to finish setting up your vault without re-entering the details.
+
+> The initial transaction already charged the **$50 creation fee** and saved your vault parameters on-chain.\
+> You will **not be charged again**. You only need to complete:
+
+1. Vault Account Minting
+2. (Optional) Initial Deposit — if you had selected it
+
+Once these are done, your vault will be fully functional and, if funded, listed publicly.
+
+If you decide not to continue, you can **delete** the draft vault from the same “Continue Setup” dialog.
+
+* This action is **irreversible**.
+* Any fees already paid (e.g., the $50 creation fee) **will not be refunded.**
+
+<figure><img src="../../.gitbook/assets/pending_vault.png" alt="" width="563"><figcaption></figcaption></figure>
+
+***
+
+## What if a Transaction Timed Out?
 
 If you encounter the following error during vault creation:
 
