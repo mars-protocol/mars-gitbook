@@ -57,7 +57,7 @@ Once you have one or more Credit Accounts, you can **Fund**, **Withdraw**, or **
 ### 3.2 Withdraw from Your Account
 
 * From the **Credit Account** dropdown, click **Withdraw**.
-* In the Withdraw modal, choose asset and amount (use slider or **MAX**) and then click **Withdraw** [**→**](https://www.toptal.com/designers/htmlarrows/arrows/right-arrow/)**.**
+* In the Withdraw modal, choose asset and amount (use slider or **MAX**) and then click **Withdraw →.**
 
 <figure><img src="../.gitbook/assets/mars_account_withdraw.png" alt=""><figcaption></figcaption></figure>
 
