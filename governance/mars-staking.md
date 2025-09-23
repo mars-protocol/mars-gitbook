@@ -27,7 +27,7 @@ You need to have **MARS in your wallet on the Neutron network** in order to stak
 
 **Unstaking period**: It takes **1 day** after initiating an unstake before you can withdraw tokens. During this time:
 
-* You will not receive voting power for the unstaking tokens.
+* You will not receive trading fee discounts & voting power for the unstaking tokens.
 * You cannot cancel the unstaking process.
 
 ***
