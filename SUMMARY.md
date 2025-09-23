@@ -35,6 +35,7 @@
   * [Deposit Caps Risk Framework](risk-methodology/deposit-caps-risk-framework.md)
 * [Governance](governance.md)
   * [MARS Token](governance/mars-token.md)
+  * [MARS Staking](governance/mars-staking.md)
 * [Smart Contracts](smart-contracts/README.md)
   * [Address Provider](smart-contracts/address-provider.md)
   * [Account NFT](smart-contracts/account-nft.md)
