@@ -47,7 +47,7 @@ By staking MARS, you qualify for trading fee discounts (spot and perpetuals) bas
 | Tier 7 | 1,000,000+  | 70%                  |
 | Tier 8 | 1,500,000+  | 80%                  |
 
-**Important Note:** You can start staking $MARS today to secure your tier, and be ready when trading fee discounts launch in October.
+**Important Note:** You can start staking MARS today to secure your tier, and be ready when trading fee discounts launch in October.
 
 ***
 
