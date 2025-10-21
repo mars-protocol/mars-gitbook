@@ -1,6 +1,6 @@
 # Credit Accounts
 
-<div align="left"><figure><img src=".gitbook/assets/accountSummary.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src=".gitbook/assets/credit-accounts.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Understanding Credit Accounts on Mars
 

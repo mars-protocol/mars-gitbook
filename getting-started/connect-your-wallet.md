@@ -15,7 +15,7 @@ Follow these steps to connect your wallet to the Mars Protocol app.
 * Open your browser and go to: [app.marsprotocol.io](https://app.marsprotocol.io/)
 * In the top-right corner, click **Connect Wallet**.
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p><em>Mars Protocol toolbar with “Connect Wallet” button on the right.</em></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/header.png" alt=""><figcaption><p><em>Mars Protocol toolbar with “Connect Wallet” button on the right.</em></p></figcaption></figure>
 
 ***
 
@@ -24,7 +24,7 @@ Follow these steps to connect your wallet to the Mars Protocol app.
 * A modal will appear with a link to Mars Protocol’s Terms of Service.
 * After you read through them, click **Agree & continue**.
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p><em>“Master the Red Planet” modal with “Agree &#x26; continue” button.</em></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/connect.png" alt=""><figcaption><p><em>“Master the Red Planet” modal with “Agree &#x26; continue” button.</em></p></figcaption></figure>
 
 ***
 
@@ -34,7 +34,7 @@ Follow these steps to connect your wallet to the Mars Protocol app.
 * Your wallet extension will open, showing a transaction to approve the connection on the current chain (Osmosis or Neutron).
 * Review and click **Approve** in your wallet popup.
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p><em>Wallet selection list.</em></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/select.png" alt=""><figcaption><p><em>Wallet selection list.</em></p></figcaption></figure>
 
 ***
 

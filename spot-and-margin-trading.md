@@ -8,7 +8,7 @@ description: >-
 
 These functions are unified within the **Credit Account system**, allowing users to interact with the protocol in a capital-efficient and user-friendly way.
 
-<figure><img src=".gitbook/assets/mars_trade.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/trade-spot.png" alt=""><figcaption></figcaption></figure>
 
 ### Spot Trading
 

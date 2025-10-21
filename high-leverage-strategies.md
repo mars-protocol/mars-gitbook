@@ -10,7 +10,7 @@ These strategies rely on strict collateral-debt pairings of **highly correlated 
 
 By utilizing asset pairs with strong price correlation, HLS Accounts allow for **higher leverage ratios** compared to standard Credit Accounts - while preserving overall protocol stability.
 
-<figure><img src=".gitbook/assets/mars_hls.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/hls.png" alt=""><figcaption></figcaption></figure>
 
 Unlike standard Credit Accounts, **HLS Accounts** are **limited to borrowing only highly correlated assets**. Upon depositing a collateral asset into an HLS Credit Account, only a small, predefined set of matching assets can be borrowed. This restriction is based on the assumption that these assets **move in price together**, reducing systemic risk.
 

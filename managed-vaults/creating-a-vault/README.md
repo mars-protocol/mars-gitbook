@@ -28,7 +28,7 @@ Here’s what the **Create Vault** screen looks like in the Mars App:
 
 > This screen allows you to configure your vault’s title, asset, initial deposit, performance fee, and withdrawal lockup period.
 
-<figure><img src="../../.gitbook/assets/create_vault.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/create-vault.png" alt=""><figcaption></figcaption></figure>
 
 Add a Clear Strategy Description
 

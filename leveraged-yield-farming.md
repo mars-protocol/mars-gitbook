@@ -8,7 +8,7 @@ description: >-
 
 This powerful strategy allows users to deploy capital more efficiently by using **LP tokens as collateral**, amplifying exposure to yield opportunities through leverage.
 
-<figure><img src=".gitbook/assets/mars_yield_farming.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/farm.png" alt=""><figcaption></figcaption></figure>
 
 ## Core Concept
 
@@ -56,16 +56,16 @@ Mars Protocol’s leveraged yield farming is currently **live on Neutron** throu
 
 ### 1. **Borrowing Underlying LP Assets**
 
-<div><figure><img src=".gitbook/assets/mars_asset_select_yield_farming.png" alt=""><figcaption><p>Borrowing NTRN and USDC for the LP</p></figcaption></figure> <figure><img src=".gitbook/assets/mars_borrow_for_yield_farming.png" alt=""><figcaption><p>Credit Account APY increases from 3.91% to 9.26%</p></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/select-assets-farm-1.png" alt=""><figcaption><p>Borrowing NTRN and USDC for the LP</p></figcaption></figure> <figure><img src=".gitbook/assets/farm-unoptimized.png" alt=""><figcaption><p>Credit Account APY increases from -2.20% to 6.72%</p></figcaption></figure></div>
 
 A user borrows **USDC and NTRN** to enter the **USDC-NTRN LP pool**:
 
 * **Borrow Rates:**
-  * USDC: 8.00%
-  * NTRN: 4.15%
-* **LP APY:** 26.05%
-* **Initial Account APY:** 3.91%
-* **Post-Strategy Account APY:** **9.26%**
+  * USDC: 6.71%
+  * NTRN: 2.45%
+* **LP APY:** 19.23%
+* **Initial Account APY:** -2.20%
+* **Post-Strategy Account APY:** **6.72%**
 
 By borrowing both LP assets, the user fully leverages the LP position and captures enhanced yield through the pool’s incentives.
 
@@ -73,15 +73,15 @@ By borrowing both LP assets, the user fully leverages the LP position and captur
 
 ### 2. Borrow Rate Optimization Strategy
 
-<div><figure><img src=".gitbook/assets/mars_asset_select_yield_farming_optimum.png" alt=""><figcaption><p>Borrowing WETH.axl for the LP</p></figcaption></figure> <figure><img src=".gitbook/assets/mars_borrow_for_yield_farming_optimum.png" alt=""><figcaption><p>Credit Account APY increases from 3.91% to 10.16%</p></figcaption></figure></div>
+<div><figure><img src=".gitbook/assets/select-assets-farm-2.png" alt=""><figcaption><p>Borrowing WETH.axl for the LP</p></figcaption></figure> <figure><img src=".gitbook/assets/farm-optimized.png" alt=""><figcaption><p>Credit Account APY increases from 3.91% to 10.16%</p></figcaption></figure></div>
 
-Instead of borrowing the native LP assets, the user borrows **WETH.axl**, which has a lower **borrow rate of 2.83%**. Upon entering the LP:
+Instead of borrowing the native LP assets, the user borrows **wstETH**, which has a lower **borrow rate of 0.57%**. Upon entering the LP:
 
-* The borrowed **WETH.axl** is **automatically swapped** into one of the LP assets.
+* The borrowed **wstETH** is **automatically swapped** into one of the LP assets.
 * **Single-sided liquidity provisioning** is used to minimize transaction complexity and gas usage.
-* **LP APY:** 26.05%
-* **Initial Account APY:** 3.91%
-* **Post-Strategy Account APY:** **10.16%**
+* **LP APY:** 19.23%
+* **Initial Account APY:** -2.20%
+* **Post-Strategy Account APY:** **9.30%**
 
 This strategy improves yield performance over the previous example by **optimizing for the lowest borrow rate**, demonstrating the flexibility and capital efficiency enabled by Mars Protocol’s integration with Astroport.
 

@@ -21,7 +21,7 @@ Each row displays:
 
 > You can **sort** the list by TVL, APY, or fee to find vaults that match your risk appetite or yield target.
 
-<figure><img src="../.gitbook/assets/vault_table.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/available-vaults.png" alt=""><figcaption></figcaption></figure>
 
 Click the **Vault Info** button to view full details, including strategy, past performance, and deposit options.
 
@@ -105,7 +105,7 @@ Here’s what you’ll see:
   Shows how much of the total vault you currently own.\
   This is determined by the number of vault shares you hold versus the total vault share supply.
 
-<figure><img src="../.gitbook/assets/performance.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/vault-performance.png" alt=""><figcaption></figcaption></figure>
 
 > **Reminder:**\
 > Managed Vaults are not entirely “set and forget.” You’re still responsible for monitoring your position over time.\

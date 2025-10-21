@@ -17,13 +17,15 @@ You need to have **MARS in your wallet on the Neutron network** in order to stak
 
 1. Go to the Mars Protocol frontend: [app.marsprotocol.io/portfolio](https://app.marsprotocol.io/portfolio)
 2. Navigate to the **MARS Staking** section within the Portfolio page.
-3. Click **Manage your MARS stake**.\
-   ![](../.gitbook/assets/image.png)
+3.  Click **Manage your MARS stake**.\
+
+
+    <figure><img src="../.gitbook/assets/mars-staking.png" alt=""><figcaption></figcaption></figure>
 4. A pop-up interface will appear, where you can:
    * **Stake**: Select how much MARS to stake using the slider or input field.
    * **Unstake**: Select how much MARS to unstake.
 5. Click **Stake MARS** or **Unstake MARS**, then confirm the transaction in your wallet.\
-   ![](<../.gitbook/assets/image (1).png>)
+   ![](../.gitbook/assets/stake-mars.png)
 
 **Unstaking period**: It takes **1 day** after initiating an unstake before you can withdraw tokens. During this time:
 

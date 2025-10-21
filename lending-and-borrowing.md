@@ -8,7 +8,7 @@ description: >-
 
 Users can earn yield by supplying assets to the protocol or borrow assets to pursue leveraged strategies. The system is governed by a dynamic interest rate model and risk-managed asset whitelisting.
 
-<figure><img src=".gitbook/assets/mars_lending_and_borrowing.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/lend.png" alt=""><figcaption></figcaption></figure>
 
 ### Interest Rate Model
 

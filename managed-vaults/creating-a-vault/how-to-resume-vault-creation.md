@@ -29,7 +29,7 @@ If you decide not to continue, you can **delete** the draft vault from the same 
 * This action is **irreversible**.
 * Any fees already paid (e.g., the $50 creation fee) **will not be refunded.**
 
-<figure><img src="../../.gitbook/assets/pending_vault.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/continue-mint.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -53,7 +53,7 @@ Instead of restarting the process entirely, you can **manually resume vault crea
 
 1. Open the [Mars App](https://app.marsprotocol.io/) and click the **wallet icon** in the top-right corner.
 
-<figure><img src="../../.gitbook/assets/view-on-mintscan (2).png" alt=""><figcaption><p>Click on the View on Mintscan button to open your wallet in the Block Explorer</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/wallet.png" alt=""><figcaption><p>Click on the View on Mintscan button to open your wallet in the Block Explorer</p></figcaption></figure>
 
 2. Click the **“View on Mintscan”** button to open your account details in Mintscan.
 3. Scroll down to the **Transactions list** and look for the most recent transaction with the **message type `Instantiate Contract`**. Click on it to view details.
@@ -86,15 +86,15 @@ Create Vault Page
 
 1. Click on the _Contine Setup_ button inside the [Create Vault Page](https://app.marsprotocol.io/vaults/create).
 
-<figure><img src="../../.gitbook/assets/continue-setup.png" alt=""><figcaption><p>Click on Continue Setup</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/vault-continue.png" alt=""><figcaption><p>Click on Continue Setup</p></figcaption></figure>
 
 Alternatively use the _Continue Setup_ button in the [_My Vaults_ Table](https://app.marsprotocol.io/vaults).
 
-<figure><img src="../../.gitbook/assets/continue-setup-table.png" alt=""><figcaption><p>Alternative click on Continue Setup in the My Vaults table</p></figcaption></figure>
+
 
 2. Insert the copied Vault Address into the modal, that shows after clicking on the _Continue Setup_ button.
 
-<figure><img src="../../.gitbook/assets/continue-minting.png" alt=""><figcaption><p>Copy the vault address into the input field</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/vault-resume-mint.png" alt=""><figcaption><p>Copy the vault address into the input field</p></figcaption></figure>
 
 3. Click on _Continue Minting Vault_ and you will be able to resume the minting process.
 

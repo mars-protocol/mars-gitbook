@@ -8,7 +8,7 @@ description: >-
 
 It plays a critical role in ensuring reliable **USDC-based settlement**, effective risk management, and long-term system sustainability.
 
-<figure><img src="../.gitbook/assets/mars_counter_party_vault.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/counter-party-vault.png" alt=""><figcaption></figcaption></figure>
 
 ### Core Function
 
@@ -72,7 +72,7 @@ Perpetuals on Mars charge a **0.075% fee per trade**. This fee is split between 
 
 It reflects the daily interest generated from the vault’s accrued trading fees. It varies with platform activity, offering compounded returns to **Liquidity Providers (LPs)** through the **revenue-sharing model.**
 
-<figure><img src="../.gitbook/assets/mars_perps_vault.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/counter-party-vault-apy.png" alt=""><figcaption></figcaption></figure>
 
 #### APY Calculation:
 
